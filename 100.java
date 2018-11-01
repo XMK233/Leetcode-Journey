@@ -1,78 +1,60 @@
-import java.util.LinkedList;
-import java.util.Stack;
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
 
-/*101. Symmetric Tree
+/*
+100. Same Tree
 
-Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+Given two binary trees, write a function to check if they are the same or not.
 
-For example, this binary tree [1,2,2,3,4,4,3] is symmetric:
+Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
 
-    1
-   / \
-  2   2
- / \ / \
-3  4 4  3
-But the following [1,2,2,null,3,null,3] is not:
-    1
-   / \
-  2   2
-   \   \
-   3    3
-Note:
-Bonus points if you could solve it both recursively and iteratively.
+Example 1:
 
-* Copy from: https://www.jianshu.com/p/9783e1f6b1c9
-* 
-* */
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
+Input:     1         1
+          / \       / \
+         2   3     2   3
+
+        [1,2,3],   [1,2,3]
+
+Output: true
+Example 2:
+
+Input:     1         1
+          /           \
+         2             2
+
+        [1,2],     [1,null,2]
+
+Output: false
+Example 3:
+
+Input:     1         1
+          / \       / \
+         2   1     1   2
+
+        [1,2,1],   [1,1,2]
+
+Output: false
+
+ */
 class Solution {
-    public boolean isSymmetric(TreeNode root) {
-        if (root == null) {
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+
+        if (p == q && q == null)
             return true;
+
+        if (p != null && q != null){
+            if (p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right))
+                return true;
         }
 
-        return helper(root.left, root.right);
-    }
-
-    private boolean helper(TreeNode left, TreeNode right) {
-        if (left == null && right == null) {
-            return true;
-        }
-
-        if (left == null || right == null) {
-            return false;
-        }
-
-        if (left.val != right.val) {
-            return false;
-        }
-
-        return helper(left.left, right.right) && helper(left.right, right.left);
-    }
-}
-public class firstTest{
-    public static void main(String[] args){
-        Solution s = new Solution();
-
-        TreeNode t1 = new TreeNode(1);
-        TreeNode t2 = new TreeNode(2);
-        TreeNode t3 = new TreeNode(2);
-        TreeNode t4 = new TreeNode(3);
-        TreeNode t5 = new TreeNode(3);
-
-        t1.left = t2;
-        t1.right = t3;
-        t2.left = null;
-        t2.right = t4;
-        t3.left = null;
-        t3.right = t5;
-        t4.left = t4.right = t5.left = t5.right = null;
-        System.out.print(s.isSymmetric(t1));
-
+        return false;
     }
 }
