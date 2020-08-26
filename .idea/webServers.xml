@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7bd31925-fb56-4dc6-b43c-66240a17b80e" name="SCALECC5" url="http://206.12.93.199">
+        <fileTransfer host="206.12.93.199" port="22" privateKey="C:\Users\XMK23\Dropbox\weekly_status_report\SCALECC.pem" rootFolder="/mnt/SCALEDISK06/minke/KaggleCrawling" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

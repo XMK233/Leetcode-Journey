@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
+      <paths name="SCALECC5">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="root@scale05.eecs.yorku.ca:9994">
         <serverdata>
           <mappings>

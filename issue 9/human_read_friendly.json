@@ -1,0 +1,3844 @@
+{
+    "Adds back missing update ops for batch norm that were lost in version 3, (<a href=\"https://github.com/tensorflow/hub/issues/304\">GitHub issue #304</a>).": {
+        "tf2-preview-inception_v3-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "tf2-preview-inception_v3-classification",
+            "sub_family": "tf2-preview-inception_v3",
+            "version": "4"
+        },
+        "tf2-preview-inception_v3-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "tf2-preview-inception_v3-feature_vector",
+            "sub_family": "tf2-preview-inception_v3",
+            "version": "4"
+        },
+        "tf2-preview-mobilenet_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "tf2-preview-mobilenet_v2-classification",
+            "sub_family": "tf2-preview-mobilenet_v2",
+            "version": "4"
+        },
+        "tf2-preview-mobilenet_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "tf2-preview-mobilenet_v2-feature_vector",
+            "sub_family": "tf2-preview-mobilenet_v2",
+            "version": "4"
+        }
+    },
+    "Avoids crash in some TFLite/toco versions (<a href=\"https://github.com/tensorflow/hub/issues/109\">GitHub issue 109</a>) by overestimating quantization boundaries on input image by 0.05%.": {
+        "imagenet-mobilenet_v1_025_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        }
+    },
+    "Exposed internal variables as Trainable.": {
+        "universal-sentence-encoder": {
+            "application_domain": "text; embedding",
+            "family": "universal-sentence-encoder",
+            "name": "universal-sentence-encoder",
+            "sub_family": "universal-sentence-encoder",
+            "version": "2"
+        },
+        "universal-sentence-encoder-large": {
+            "application_domain": "text; embedding",
+            "family": "universal-sentence-encoder",
+            "name": "universal-sentence-encoder-large",
+            "sub_family": "universal-sentence-encoder",
+            "version": "2"
+        },
+        "universal-sentence-encoder-lite": {
+            "application_domain": "text; embedding",
+            "family": "universal-sentence-encoder",
+            "name": "universal-sentence-encoder-lite",
+            "sub_family": "universal-sentence-encoder",
+            "version": "2"
+        }
+    },
+    "Fine-tuning: change default batch norm momentum to 0.99 and make it configurable.": {
+        "imagenet-inception_resnet_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_resnet_v2-classification",
+            "sub_family": "imagenet-inception_resnet_v2",
+            "version": "3"
+        },
+        "imagenet-inception_resnet_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_resnet_v2-feature_vector",
+            "sub_family": "imagenet-inception_resnet_v2",
+            "version": "3"
+        },
+        "imagenet-inception_v1-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v1-classification",
+            "sub_family": "imagenet-inception_v1",
+            "version": "3"
+        },
+        "imagenet-inception_v1-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v1-feature_vector",
+            "sub_family": "imagenet-inception_v1",
+            "version": "3"
+        },
+        "imagenet-inception_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v2-classification",
+            "sub_family": "imagenet-inception_v2",
+            "version": "3"
+        },
+        "imagenet-inception_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v2-feature_vector",
+            "sub_family": "imagenet-inception_v2",
+            "version": "3"
+        },
+        "imagenet-inception_v3-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v3-classification",
+            "sub_family": "imagenet-inception_v3",
+            "version": "3"
+        },
+        "imagenet-inception_v3-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v3-feature_vector",
+            "sub_family": "imagenet-inception_v3",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_130_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_130_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_130_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_130_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_140_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_140_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_140_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_140_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-nasnet_large-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_large-classification",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-nasnet_large-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_large-feature_vector",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-nasnet_mobile-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_mobile-classification",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-nasnet_mobile-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_mobile-feature_vector",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-pnasnet_large-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-pnasnet",
+            "name": "imagenet-pnasnet_large-classification",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-pnasnet_large-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-pnasnet",
+            "name": "imagenet-pnasnet_large-feature_vector",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-resnet_v1_101-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_101-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_101-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_101-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_152-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_152-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_152-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_152-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_50-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_50-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_50-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_50-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_101-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_101-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_101-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_101-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_152-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_152-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_152-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_152-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_50-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_50-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_50-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_50-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        }
+    },
+    "Fixed batch invariant <a href=\"https://github.com/tensorflow/hub/issues/74\">bug</a>. This version was retrained and its embedding space differs from previous versions.": {
+        "universal-sentence-encoder-large": {
+            "application_domain": "text; embedding",
+            "family": "universal-sentence-encoder",
+            "name": "universal-sentence-encoder-large",
+            "sub_family": "universal-sentence-encoder",
+            "version": "3"
+        }
+    },
+    "Fixed broken UPDATE_OPS for fine-tuning, <a href=\"https://github.com/tensorflow/hub/issues/86\">GitHub issue 86</a>.": {
+        "imagenet-mobilenet_v2_035_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_035_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_035_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_035_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_035_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_035_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_035_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_035_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_035_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_035_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_050_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_050_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_050_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_050_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_050_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_050_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_050_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_050_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_050_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_050_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_075_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_075_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_075_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_075_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_075_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_075_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_075_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_075_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_075_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_075_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_100_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_100_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_100_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_100_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_100_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_100_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_100_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_100_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_100_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_100_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_130_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_130_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_130_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_130_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_140_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_140_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-mobilenet_v2_140_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_140_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "2"
+        },
+        "imagenet-pnasnet_large-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-pnasnet",
+            "name": "imagenet-pnasnet_large-classification",
+            "sub_family": null,
+            "version": "2"
+        },
+        "imagenet-pnasnet_large-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-pnasnet",
+            "name": "imagenet-pnasnet_large-feature_vector",
+            "sub_family": null,
+            "version": "2"
+        }
+    },
+    "Fixed broken regularization_losses.": {
+        "tf2-preview-inception_v3-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "tf2-preview-inception_v3-classification",
+            "sub_family": "tf2-preview-inception_v3",
+            "version": "2"
+        },
+        "tf2-preview-inception_v3-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "tf2-preview-inception_v3-feature_vector",
+            "sub_family": "tf2-preview-inception_v3",
+            "version": "2"
+        },
+        "tf2-preview-mobilenet_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "tf2-preview-mobilenet_v2-classification",
+            "sub_family": "tf2-preview-mobilenet_v2",
+            "version": "2"
+        },
+        "tf2-preview-mobilenet_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "tf2-preview-mobilenet_v2-feature_vector",
+            "sub_family": "tf2-preview-mobilenet_v2",
+            "version": "2"
+        }
+    },
+    "Fixed missing default <code>trainable=False</code>.": {
+        "tf2-preview-inception_v3-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "tf2-preview-inception_v3-classification",
+            "sub_family": "tf2-preview-inception_v3",
+            "version": "2"
+        },
+        "tf2-preview-inception_v3-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "tf2-preview-inception_v3-feature_vector",
+            "sub_family": "tf2-preview-inception_v3",
+            "version": "2"
+        },
+        "tf2-preview-mobilenet_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "tf2-preview-mobilenet_v2-classification",
+            "sub_family": "tf2-preview-mobilenet_v2",
+            "version": "2"
+        },
+        "tf2-preview-mobilenet_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "tf2-preview-mobilenet_v2-feature_vector",
+            "sub_family": "tf2-preview-mobilenet_v2",
+            "version": "2"
+        }
+    },
+    "Fixed race condition causing batch statistics for previous truncation value to be used on the first run call for a new truncation value.": {
+        "biggan-128": {
+            "application_domain": "image; generate",
+            "family": "biggan",
+            "name": "biggan-128",
+            "sub_family": "biggan",
+            "version": "2"
+        },
+        "biggan-256": {
+            "application_domain": "image; generate",
+            "family": "biggan",
+            "name": "biggan-256",
+            "sub_family": "biggan",
+            "version": "2"
+        },
+        "biggan-512": {
+            "application_domain": "image; generate",
+            "family": "biggan",
+            "name": "biggan-512",
+            "sub_family": "biggan",
+            "version": "2"
+        }
+    },
+    "Initial release.": {
+        "bert_cased_L-12_H-768_A-12": {
+            "application_domain": "text; representation",
+            "family": "bert",
+            "name": "bert_cased_L-12_H-768_A-12",
+            "sub_family": null,
+            "version": "1"
+        },
+        "bert_cased_L-24_H-1024_A-16": {
+            "application_domain": "text; representation",
+            "family": "bert",
+            "name": "bert_cased_L-24_H-1024_A-16",
+            "sub_family": null,
+            "version": "1"
+        },
+        "bert_chinese_L-12_H-768_A-12": {
+            "application_domain": "text; representation",
+            "family": "bert",
+            "name": "bert_chinese_L-12_H-768_A-12",
+            "sub_family": null,
+            "version": "1"
+        },
+        "bert_multi_cased_L-12_H-768_A-12": {
+            "application_domain": "text; representation",
+            "family": "bert",
+            "name": "bert_multi_cased_L-12_H-768_A-12",
+            "sub_family": null,
+            "version": "1"
+        },
+        "bert_uncased_L-12_H-768_A-12": {
+            "application_domain": "text; representation",
+            "family": "bert",
+            "name": "bert_uncased_L-12_H-768_A-12",
+            "sub_family": null,
+            "version": "1"
+        },
+        "bert_uncased_L-24_H-1024_A-16": {
+            "application_domain": "text; representation",
+            "family": "bert",
+            "name": "bert_uncased_L-24_H-1024_A-16",
+            "sub_family": null,
+            "version": "1"
+        },
+        "biggan-128": {
+            "application_domain": "image; generate",
+            "family": "biggan",
+            "name": "biggan-128",
+            "sub_family": "biggan",
+            "version": "1"
+        },
+        "biggan-256": {
+            "application_domain": "image; generate",
+            "family": "biggan",
+            "name": "biggan-256",
+            "sub_family": "biggan",
+            "version": "1"
+        },
+        "biggan-512": {
+            "application_domain": "image; generate",
+            "family": "biggan",
+            "name": "biggan-512",
+            "sub_family": "biggan",
+            "version": "1"
+        },
+        "image_augmentation-crop_color": {
+            "application_domain": "image; augmentation",
+            "family": "image_augmentation",
+            "name": "image_augmentation-crop_color",
+            "sub_family": "image_augmentation",
+            "version": "1"
+        },
+        "image_augmentation-crop_rotate_color": {
+            "application_domain": "image; augmentation",
+            "family": "image_augmentation",
+            "name": "image_augmentation-crop_rotate_color",
+            "sub_family": "image_augmentation",
+            "version": "1"
+        },
+        "image_augmentation-flipx_crop_rotate_color": {
+            "application_domain": "image; augmentation",
+            "family": "image_augmentation",
+            "name": "image_augmentation-flipx_crop_rotate_color",
+            "sub_family": "image_augmentation",
+            "version": "1"
+        },
+        "image_augmentation-nas_cifar": {
+            "application_domain": "image; augmentation",
+            "family": "image_augmentation",
+            "name": "image_augmentation-nas_cifar",
+            "sub_family": "image_augmentation-nas",
+            "version": "1"
+        },
+        "image_augmentation-nas_imagenet": {
+            "application_domain": "image; augmentation",
+            "family": "image_augmentation",
+            "name": "image_augmentation-nas_imagenet",
+            "sub_family": "image_augmentation-nas",
+            "version": "1"
+        },
+        "image_augmentation-nas_svhn": {
+            "application_domain": "image; augmentation",
+            "family": "image_augmentation",
+            "name": "image_augmentation-nas_svhn",
+            "sub_family": "image_augmentation-nas",
+            "version": "1"
+        },
+        "imagenet-inception_resnet_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_resnet_v2-classification",
+            "sub_family": "imagenet-inception_resnet_v2",
+            "version": "1"
+        },
+        "imagenet-inception_resnet_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_resnet_v2-feature_vector",
+            "sub_family": "imagenet-inception_resnet_v2",
+            "version": "1"
+        },
+        "imagenet-inception_v1-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v1-classification",
+            "sub_family": "imagenet-inception_v1",
+            "version": "1"
+        },
+        "imagenet-inception_v1-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v1-feature_vector",
+            "sub_family": "imagenet-inception_v1",
+            "version": "1"
+        },
+        "imagenet-inception_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v2-classification",
+            "sub_family": "imagenet-inception_v2",
+            "version": "1"
+        },
+        "imagenet-inception_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v2-feature_vector",
+            "sub_family": "imagenet-inception_v2",
+            "version": "1"
+        },
+        "imagenet-inception_v3-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v3-classification",
+            "sub_family": "imagenet-inception_v3",
+            "version": "1"
+        },
+        "imagenet-inception_v3-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v3-feature_vector",
+            "sub_family": "imagenet-inception_v3",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_025_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_050_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_075_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v1_100_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_035_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_035_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_035_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_035_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_035_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_035_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_035_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_035_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_035_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_035_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_050_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_050_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_050_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_050_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_050_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_050_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_050_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_050_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_050_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_050_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_075_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_075_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_075_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_075_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_075_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_075_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_075_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_075_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_075_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_075_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_100_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_100_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_100_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_100_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_100_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_100_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_100_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_100_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_100_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_100_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_130_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_130_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_130_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_130_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_140_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_140_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-mobilenet_v2_140_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_140_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "1"
+        },
+        "imagenet-nasnet_large-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_large-classification",
+            "sub_family": null,
+            "version": "1"
+        },
+        "imagenet-nasnet_large-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_large-feature_vector",
+            "sub_family": null,
+            "version": "1"
+        },
+        "imagenet-nasnet_mobile-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_mobile-classification",
+            "sub_family": null,
+            "version": "1"
+        },
+        "imagenet-nasnet_mobile-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_mobile-feature_vector",
+            "sub_family": null,
+            "version": "1"
+        },
+        "imagenet-pnasnet_large-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-pnasnet",
+            "name": "imagenet-pnasnet_large-classification",
+            "sub_family": null,
+            "version": "1"
+        },
+        "imagenet-pnasnet_large-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-pnasnet",
+            "name": "imagenet-pnasnet_large-feature_vector",
+            "sub_family": null,
+            "version": "1"
+        },
+        "imagenet-resnet_v1_101-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_101-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "1"
+        },
+        "imagenet-resnet_v1_101-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_101-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "1"
+        },
+        "imagenet-resnet_v1_152-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_152-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "1"
+        },
+        "imagenet-resnet_v1_152-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_152-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "1"
+        },
+        "imagenet-resnet_v1_50-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_50-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "1"
+        },
+        "imagenet-resnet_v1_50-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_50-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "1"
+        },
+        "imagenet-resnet_v2_101-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_101-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "1"
+        },
+        "imagenet-resnet_v2_101-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_101-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "1"
+        },
+        "imagenet-resnet_v2_152-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_152-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "1"
+        },
+        "imagenet-resnet_v2_152-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_152-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "1"
+        },
+        "imagenet-resnet_v2_50-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_50-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "1"
+        },
+        "imagenet-resnet_v2_50-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_50-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "1"
+        },
+        "tf2-preview-inception_v3-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "tf2-preview-inception_v3-classification",
+            "sub_family": "tf2-preview-inception_v3",
+            "version": "1"
+        },
+        "tf2-preview-inception_v3-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "tf2-preview-inception_v3-feature_vector",
+            "sub_family": "tf2-preview-inception_v3",
+            "version": "1"
+        },
+        "tf2-preview-mobilenet_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "tf2-preview-mobilenet_v2-classification",
+            "sub_family": "tf2-preview-mobilenet_v2",
+            "version": "1"
+        },
+        "tf2-preview-mobilenet_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "tf2-preview-mobilenet_v2-feature_vector",
+            "sub_family": "tf2-preview-mobilenet_v2",
+            "version": "1"
+        },
+        "universal-sentence-encoder": {
+            "application_domain": "text; embedding",
+            "family": "universal-sentence-encoder",
+            "name": "universal-sentence-encoder",
+            "sub_family": "universal-sentence-encoder",
+            "version": "1"
+        },
+        "universal-sentence-encoder-large": {
+            "application_domain": "text; embedding",
+            "family": "universal-sentence-encoder",
+            "name": "universal-sentence-encoder-large",
+            "sub_family": "universal-sentence-encoder",
+            "version": "1"
+        },
+        "universal-sentence-encoder-lite": {
+            "application_domain": "text; embedding",
+            "family": "universal-sentence-encoder",
+            "name": "universal-sentence-encoder-lite",
+            "sub_family": "universal-sentence-encoder",
+            "version": "1"
+        }
+    },
+    "Provides proper names for variables, fixing crash in <code>Model.save()</code> (<a href=\"https://github.com/tensorflow/hub/issues/287\">GitHub issue #287</a>).": {
+        "tf2-preview-inception_v3-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "tf2-preview-inception_v3-classification",
+            "sub_family": "tf2-preview-inception_v3",
+            "version": "3"
+        },
+        "tf2-preview-inception_v3-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "tf2-preview-inception_v3-feature_vector",
+            "sub_family": "tf2-preview-inception_v3",
+            "version": "3"
+        },
+        "tf2-preview-mobilenet_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "tf2-preview-mobilenet_v2-classification",
+            "sub_family": "tf2-preview-mobilenet_v2",
+            "version": "3"
+        },
+        "tf2-preview-mobilenet_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "tf2-preview-mobilenet_v2-feature_vector",
+            "sub_family": "tf2-preview-mobilenet_v2",
+            "version": "3"
+        }
+    },
+    "Requires PIP package <code>tensorflow-hub&gt;=0.2.0</code>.": {
+        "imagenet-inception_resnet_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_resnet_v2-classification",
+            "sub_family": "imagenet-inception_resnet_v2",
+            "version": "3"
+        },
+        "imagenet-inception_resnet_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_resnet_v2-feature_vector",
+            "sub_family": "imagenet-inception_resnet_v2",
+            "version": "3"
+        },
+        "imagenet-inception_v1-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v1-classification",
+            "sub_family": "imagenet-inception_v1",
+            "version": "3"
+        },
+        "imagenet-inception_v1-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v1-feature_vector",
+            "sub_family": "imagenet-inception_v1",
+            "version": "3"
+        },
+        "imagenet-inception_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v2-classification",
+            "sub_family": "imagenet-inception_v2",
+            "version": "3"
+        },
+        "imagenet-inception_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v2-feature_vector",
+            "sub_family": "imagenet-inception_v2",
+            "version": "3"
+        },
+        "imagenet-inception_v3-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v3-classification",
+            "sub_family": "imagenet-inception_v3",
+            "version": "3"
+        },
+        "imagenet-inception_v3-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v3-feature_vector",
+            "sub_family": "imagenet-inception_v3",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_128-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_128-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_160-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_160-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_192-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_192-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_224-quantops-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-quantops-classification",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_224-quantops-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-quantops-feature_vector",
+            "sub_family": "quantops",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_035_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_035_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_050_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_050_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_075_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_075_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_128-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_160-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_192-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_96-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_96-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_100_96-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_100_96-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_130_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_130_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_130_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_130_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_140_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_140_224-classification",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v2_140_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v2_140_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v2",
+            "version": "3"
+        },
+        "imagenet-nasnet_large-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_large-classification",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-nasnet_large-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_large-feature_vector",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-nasnet_mobile-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_mobile-classification",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-nasnet_mobile-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-nasnet",
+            "name": "imagenet-nasnet_mobile-feature_vector",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-pnasnet_large-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-pnasnet",
+            "name": "imagenet-pnasnet_large-classification",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-pnasnet_large-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-pnasnet",
+            "name": "imagenet-pnasnet_large-feature_vector",
+            "sub_family": null,
+            "version": "3"
+        },
+        "imagenet-resnet_v1_101-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_101-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_101-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_101-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_152-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_152-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_152-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_152-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_50-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_50-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_50-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_50-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_101-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_101-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_101-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_101-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_152-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_152-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_152-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_152-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_50-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_50-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_50-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_50-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        }
+    },
+    "Restricted trainable variables to the 4 scalar weights as described in thepaper.": {},
+    "Support for variable input size.": {
+        "imagenet-inception_resnet_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_resnet_v2-classification",
+            "sub_family": "imagenet-inception_resnet_v2",
+            "version": "3"
+        },
+        "imagenet-inception_resnet_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_resnet_v2-feature_vector",
+            "sub_family": "imagenet-inception_resnet_v2",
+            "version": "3"
+        },
+        "imagenet-inception_v1-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v1-classification",
+            "sub_family": "imagenet-inception_v1",
+            "version": "3"
+        },
+        "imagenet-inception_v1-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v1-feature_vector",
+            "sub_family": "imagenet-inception_v1",
+            "version": "3"
+        },
+        "imagenet-inception_v2-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v2-classification",
+            "sub_family": "imagenet-inception_v2",
+            "version": "3"
+        },
+        "imagenet-inception_v2-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v2-feature_vector",
+            "sub_family": "imagenet-inception_v2",
+            "version": "3"
+        },
+        "imagenet-inception_v3-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v3-classification",
+            "sub_family": "imagenet-inception_v3",
+            "version": "3"
+        },
+        "imagenet-inception_v3-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-inception",
+            "name": "imagenet-inception_v3-feature_vector",
+            "sub_family": "imagenet-inception_v3",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_025_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_025_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_050_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_050_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_075_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_075_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_128-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_128-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_128-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_160-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_160-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_160-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_192-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_192-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_192-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_224-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-classification",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-mobilenet_v1_100_224-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-mobilenet",
+            "name": "imagenet-mobilenet_v1_100_224-feature_vector",
+            "sub_family": "imagenet-mobilenet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_101-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_101-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_101-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_101-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_152-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_152-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_152-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_152-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_50-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_50-classification",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v1_50-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v1_50-feature_vector",
+            "sub_family": "imagenet-resnet_v1",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_101-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_101-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_101-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_101-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_152-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_152-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_152-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_152-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_50-classification": {
+            "application_domain": "image; classification",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_50-classification",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        },
+        "imagenet-resnet_v2_50-feature_vector": {
+            "application_domain": "image; feature_vector",
+            "family": "imagenet-resnet",
+            "name": "imagenet-resnet_v2_50-feature_vector",
+            "sub_family": "imagenet-resnet_v2",
+            "version": "3"
+        }
+    }
+}

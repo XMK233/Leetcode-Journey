@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+   <head>
+       <meta charset="utf-8">
+   </head>
+   <body style="height: 100%; margin: 0">
+       <div id="container" style="height: 100%"></div>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+       <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=healsRNKiE5SGufOBWlxdgKCkU8wCwKf&__ec_v__=20190126"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+       <script type="text/javascript">
+
+var dom = document.getElementById("container");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+myChart.showLoading();
+
+var data = {
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "Wiki-words-250",
+                            "value": 1
+                        },
+                        {
+                            "name": "Wiki-words-250-with-normalization",
+                            "value": 1
+                        },
+                        {
+                            "name": "Wiki-words-500",
+                            "value": 1
+                        },
+                        {
+                            "name": "Wiki-words-500-with-normalization",
+                            "value": 1
+                        }
+                    ],
+                    "name": "Wiki-words",
+                    "value": 4
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "nnlm-de-dim128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-de-dim128-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-de-dim50",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-de-dim50-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-en-dim128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-en-dim128-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-en-dim50",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-en-dim50-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-es-dim128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-es-dim128-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-es-dim50",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-es-dim50-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-id-dim128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-id-dim128-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-id-dim50",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-id-dim50-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-ja-dim128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-ja-dim128-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-ja-dim50",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-ja-dim50-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-ko-dim128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-ko-dim128-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-ko-dim50",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-ko-dim50-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-zh-dim128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-zh-dim128-with-normalization",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-zh-dim50",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "nnlm-zh-dim50-with-normalization",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "nnlm",
+                            "value": 28
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "random-nnlm-en-dim128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "random-nnlm-en-dim50",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "random-nnlm",
+                            "value": 2
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "tf2-preview-nnlm-en-dim128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "tf2-preview-nnlm-en-dim50",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "tf2-preview-nnlm",
+                            "value": 2
+                        }
+                    ],
+                    "name": "nnlm",
+                    "value": 3
+                },
+                {
+                    "children": [
+                        {
+                            "name": "tf2-preview-gnews-swivel-20dim",
+                            "value": 1
+                        },
+                        {
+                            "name": "tf2-preview-gnews-swivel-20dim-with-oov",
+                            "value": 1
+                        }
+                    ],
+                    "name": "tf2-preview-gnews-swivel",
+                    "value": 2
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "universal-sentence-encoder",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "universal-sentence-encoder-large",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "universal-sentence-encoder-lite",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "universal-sentence-encoder",
+                            "value": 3
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "universal-sentence-encoder-xling-en-de",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "universal-sentence-encoder-xling-en-es",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "universal-sentence-encoder-xling-en-fr",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "universal-sentence-encoder-xling-many",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "universal-sentence-encoder-xling",
+                            "value": 4
+                        }
+                    ],
+                    "name": "universal-sentence-encoder",
+                    "value": 2
+                }
+            ],
+            "name": "text; embedding",
+            "value": 4
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "bert_cased_L-12_H-768_A-12",
+                            "value": 1
+                        },
+                        {
+                            "name": "bert_cased_L-24_H-1024_A-16",
+                            "value": 1
+                        },
+                        {
+                            "name": "bert_chinese_L-12_H-768_A-12",
+                            "value": 1
+                        },
+                        {
+                            "name": "bert_multi_cased_L-12_H-768_A-12",
+                            "value": 1
+                        },
+                        {
+                            "name": "bert_uncased_L-12_H-768_A-12",
+                            "value": 1
+                        },
+                        {
+                            "name": "bert_uncased_L-24_H-1024_A-16",
+                            "value": 1
+                        }
+                    ],
+                    "name": "bert",
+                    "value": 6
+                }
+            ],
+            "name": "text; representation",
+            "value": 1
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "biggan-128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "biggan-256",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "biggan-512",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "biggan",
+                            "value": 3
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "biggan-deep-128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "biggan-deep-256",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "biggan-deep-512",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "biggan-deep",
+                            "value": 3
+                        }
+                    ],
+                    "name": "biggan",
+                    "value": 2
+                }
+            ],
+            "name": "image; generate",
+            "value": 1
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "compare_gan-model_10_lsun_bedroom_resnet19",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_11_cifar10_resnet_cifar",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_12_cifar10_resnet_cifar",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_13_cifar10_resnet_cifar",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_14_cifar10_resnet_cifar",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_15_cifar10_resnet_cifar",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_1_celebahq128_resnet19",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_2_celebahq128_resnet19",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_3_lsun_bedroom_resnet19",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_4_lsun_bedroom_resnet19",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_5_celebahq128_resnet19",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_6_celebahq128_resnet19",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_7_lsun_bedroom_resnet19",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_8_lsun_bedroom_resnet19",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-model_9_celebahq128_resnet19",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "compare_gan-model",
+                            "value": 15
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "compare_gan-s3gan_20_128x128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-s3gan_2_5_128x128",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "compare_gan-s3gan_5_128x128",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "compare_gan-s3gan",
+                            "value": 3
+                        }
+                    ],
+                    "name": "compare_gan",
+                    "value": 2
+                }
+            ],
+            "name": "image; generate; discriminate",
+            "value": 1
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "i3d-kinetics-400",
+                            "value": 1
+                        },
+                        {
+                            "name": "i3d-kinetics-600",
+                            "value": 1
+                        }
+                    ],
+                    "name": "i3d",
+                    "value": 2
+                }
+            ],
+            "name": "video; classification",
+            "value": 1
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "image_augmentation-crop_color",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "image_augmentation-crop_rotate_color",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "image_augmentation-flipx_crop_rotate_color",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "image_augmentation",
+                            "value": 3
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "image_augmentation-nas_cifar",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "image_augmentation-nas_imagenet",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "image_augmentation-nas_svhn",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "image_augmentation-nas",
+                            "value": 3
+                        }
+                    ],
+                    "name": "image_augmentation",
+                    "value": 2
+                }
+            ],
+            "name": "image; augmentation",
+            "value": 1
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "imagenet-amoebanet_a_n18_f448-classification",
+                            "value": 1
+                        }
+                    ],
+                    "name": "imagenet-amoebanet",
+                    "value": 1
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-inception_resnet_v2-classification",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-inception_resnet_v2",
+                            "value": 1
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-inception_v1-classification",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-inception_v1",
+                            "value": 1
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-inception_v2-classification",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-inception_v2",
+                            "value": 1
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-inception_v3-classification",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-inception_v3",
+                            "value": 1
+                        }
+                    ],
+                    "name": "imagenet-inception",
+                    "value": 4
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_128-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_160-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_192-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_224-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_128-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_160-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_192-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_224-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_128-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_160-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_192-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_224-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_128-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_160-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_192-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_224-classification",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-mobilenet_v1",
+                            "value": 16
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-mobilenet_v2_035_128-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_035_160-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_035_192-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_035_224-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_035_96-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_050_128-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_050_160-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_050_192-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_050_224-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_050_96-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_075_128-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_075_160-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_075_192-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_075_224-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_075_96-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_100_128-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_100_160-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_100_192-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_100_224-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_100_96-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_130_224-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_140_224-classification",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-mobilenet_v2",
+                            "value": 22
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_128-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_160-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_192-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_224-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_128-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_160-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_192-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_224-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_128-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_160-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_192-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_224-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_128-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_160-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_192-quantops-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_224-quantops-classification",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "quantops",
+                            "value": 16
+                        }
+                    ],
+                    "name": "imagenet-mobilenet",
+                    "value": 3
+                },
+                {
+                    "children": [
+                        {
+                            "name": "imagenet-nasnet_large-classification",
+                            "value": 1
+                        },
+                        {
+                            "name": "imagenet-nasnet_mobile-classification",
+                            "value": 1
+                        }
+                    ],
+                    "name": "imagenet-nasnet",
+                    "value": 2
+                },
+                {
+                    "children": [
+                        {
+                            "name": "imagenet-pnasnet_large-classification",
+                            "value": 1
+                        }
+                    ],
+                    "name": "imagenet-pnasnet",
+                    "value": 1
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-resnet_v1_101-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-resnet_v1_152-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-resnet_v1_50-classification",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-resnet_v1",
+                            "value": 3
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-resnet_v2_101-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-resnet_v2_152-classification",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-resnet_v2_50-classification",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-resnet_v2",
+                            "value": 3
+                        }
+                    ],
+                    "name": "imagenet-resnet",
+                    "value": 2
+                },
+                {
+                    "children": [
+                        {
+                            "name": "tf2-preview-inception_v3-classification",
+                            "value": 1
+                        }
+                    ],
+                    "name": "tf2-preview-inception_v3",
+                    "value": 1
+                },
+                {
+                    "children": [
+                        {
+                            "name": "tf2-preview-mobilenet_v2-classification",
+                            "value": 1
+                        }
+                    ],
+                    "name": "tf2-preview-mobilenet_v2",
+                    "value": 1
+                }
+            ],
+            "name": "image; classification",
+            "value": 8
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "imagenet-amoebanet_a_n18_f448-feature_vector",
+                            "value": 1
+                        }
+                    ],
+                    "name": "imagenet-amoebanet",
+                    "value": 1
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-inception_resnet_v2-feature_vector",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-inception_resnet_v2",
+                            "value": 1
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-inception_v1-feature_vector",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-inception_v1",
+                            "value": 1
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-inception_v2-feature_vector",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-inception_v2",
+                            "value": 1
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-inception_v3-feature_vector",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-inception_v3",
+                            "value": 1
+                        }
+                    ],
+                    "name": "imagenet-inception",
+                    "value": 4
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_128-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_160-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_192-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_224-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_128-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_160-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_192-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_224-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_128-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_160-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_192-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_224-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_128-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_160-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_192-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_224-feature_vector",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-mobilenet_v1",
+                            "value": 16
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-mobilenet_v2_035_128-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_035_160-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_035_192-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_035_224-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_035_96-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_050_128-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_050_160-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_050_192-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_050_224-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_050_96-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_075_128-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_075_160-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_075_192-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_075_224-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_075_96-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_100_128-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_100_160-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_100_192-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_100_224-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_100_96-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_130_224-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v2_140_224-feature_vector",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-mobilenet_v2",
+                            "value": 22
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_128-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_160-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_192-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_025_224-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_128-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_160-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_192-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_050_224-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_128-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_160-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_192-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_075_224-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_128-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_160-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_192-quantops-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-mobilenet_v1_100_224-quantops-feature_vector",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "quantops",
+                            "value": 16
+                        }
+                    ],
+                    "name": "imagenet-mobilenet",
+                    "value": 3
+                },
+                {
+                    "children": [
+                        {
+                            "name": "imagenet-nasnet_large-feature_vector",
+                            "value": 1
+                        },
+                        {
+                            "name": "imagenet-nasnet_mobile-feature_vector",
+                            "value": 1
+                        }
+                    ],
+                    "name": "imagenet-nasnet",
+                    "value": 2
+                },
+                {
+                    "children": [
+                        {
+                            "name": "imagenet-pnasnet_large-feature_vector",
+                            "value": 1
+                        }
+                    ],
+                    "name": "imagenet-pnasnet",
+                    "value": 1
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-resnet_v1_101-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-resnet_v1_152-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-resnet_v1_50-feature_vector",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-resnet_v1",
+                            "value": 3
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "imagenet-resnet_v2_101-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-resnet_v2_152-feature_vector",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "imagenet-resnet_v2_50-feature_vector",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "imagenet-resnet_v2",
+                            "value": 3
+                        }
+                    ],
+                    "name": "imagenet-resnet",
+                    "value": 2
+                },
+                {
+                    "children": [
+                        {
+                            "name": "tf2-preview-inception_v3-feature_vector",
+                            "value": 1
+                        }
+                    ],
+                    "name": "tf2-preview-inception_v3",
+                    "value": 1
+                },
+                {
+                    "children": [
+                        {
+                            "name": "tf2-preview-mobilenet_v2-feature_vector",
+                            "value": 1
+                        }
+                    ],
+                    "name": "tf2-preview-mobilenet_v2",
+                    "value": 1
+                }
+            ],
+            "name": "image; feature_vector",
+            "value": 8
+        }
+    ],
+    "name": "modules",
+    "value": 8
+};
+
+myChart.hideLoading();
+
+echarts.util.each(data.children, function (datum, index) {
+    index % 2 === 0 && (datum.collapsed = true);
+});
+
+myChart.setOption(option = {
+    tooltip: {
+        trigger: 'item',
+        triggerOn: 'mousemove'
+    },
+    series: [
+        {
+            type: 'tree',
+
+            data: [data],
+
+            top: '1%',
+            left: '7%',
+            bottom: '1%',
+            right: '20%',
+
+            symbolSize: 7,
+
+            label: {
+                normal: {
+                    position: 'left',
+                    verticalAlign: 'middle',
+                    align: 'right',
+                    fontSize: 9
+                }
+            },
+
+            leaves: {
+                label: {
+                    normal: {
+                        position: 'right',
+                        verticalAlign: 'middle',
+                        align: 'left'
+                    }
+                }
+            },
+
+            expandAndCollapse: true,
+            animationDuration: 550,
+            animationDurationUpdate: 750
+        }
+    ]
+});
+
+
+
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+       </script>
+   </body>
+</html>
