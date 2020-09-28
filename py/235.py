@@ -11,7 +11,7 @@ class Solution:
         if root == None:
             return None
         ## 如果有一个点直接就是root, 那么就直接返回root即可啦.
-        if root == q or root == q:
+        if root == p or root == q:
             return root
         ## 剩下的情况就是比较复杂的普通情况了.
         ### 情况1: p,q一大一小于root, 分居两侧, 那么root就是共祖.
@@ -23,6 +23,5 @@ class Solution:
         ### 情况3: 都大于
         elif p.val > root.val and q.val > root.val: # (p.val + q.val) > 2 * root.val:
             return self.lowestCommonAncestor(root.right, p, q)
-
         return None
 
