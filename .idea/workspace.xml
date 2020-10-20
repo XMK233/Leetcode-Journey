@@ -20,24 +20,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e22ebe-44be-4604-971f-f9093dad4aae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/py/121.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/jianzhi57-II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/jianzhi58-I.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/jianzhi58-II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/jianzhi61.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/jianzhi62.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/jianzhi64.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/jianzhi65.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/jianzhi66.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/jianzhi68.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-weekContest/5535.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-weekContest/5536.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-weekContest/5537.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/104.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/110.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/297.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi14I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi14II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi21.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi22.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi24.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi26.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi27.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi28.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi29.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi30.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi31.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi33.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi34.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi35.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi36.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi37.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi38.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi39.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi40.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi41.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi42.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi43.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi44.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi45.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi46.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi47.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi48.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi49.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi50.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi51.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi52.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi53-I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi53-II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi54.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi56-I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi56-II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/jianzhi57.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Leetcode-Journey.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leetcode-Journey.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py/235.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/235.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py/236.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/236.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/378.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/380.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/53.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/53.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Leetcode_Journey$202.coverage" NAME="202 Coverage Results" MODIFIED="1561244061924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -123,6 +171,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1hdbLaQsVRmo7lyZfOWsEPloPJX" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -133,15 +184,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Python.jianzhi59-I">
-    <configuration name="8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="jianzhi14I" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,7 +206,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/jianzhi14I.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +215,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jianzhi58" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="jianzhi16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,7 +227,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/jianzhi58.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/jianzhi16.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +236,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jianzhi59-I" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="jianzhi19" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,7 +248,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/jianzhi59-I.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/jianzhi19.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +257,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qunar3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="jianzhi20" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,11 +265,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_test-2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_test-2020/qunar3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/jianzhi20.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,7 +278,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="jianzhi24" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,11 +286,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_test-2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_test-2020/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/jianzhi24.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,24 +299,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.qunar3" />
-      <item itemvalue="Python.8" />
-      <item itemvalue="Python.jianzhi58" />
-      <item itemvalue="Python.jianzhi59-I" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.jianzhi59-I" />
-        <item itemvalue="Python.jianzhi58" />
-        <item itemvalue="Python.8" />
-        <item itemvalue="Python.qunar3" />
-        <item itemvalue="Python.test" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -302,230 +339,84 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="396" y="78" key="#xdebugger.evaluate" timestamp="1601327181200">
+    <state x="121" y="31" width="1089" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603164352356">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state x="396" y="78" key="#xdebugger.evaluate/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1601327181200" />
+    <state x="121" y="31" width="1089" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1603164352356" />
+    <state x="-1160" y="-488" key="#xdebugger.evaluate" timestamp="1603066900708">
+      <screen x="-1680" y="-558" width="1680" height="1020" />
+    </state>
+    <state x="-1160" y="-488" key="#xdebugger.evaluate/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1603066900708" />
+    <state x="396" y="78" key="#xdebugger.evaluate/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1601951211506" />
     <state x="396" y="78" key="#xdebugger.evaluate/0.31.1280.689@0.31.1280.689" timestamp="1600867256191" />
-    <state width="1259" height="267" key="GridCell.Tab.0.bottom" timestamp="1601329476749">
+    <state x="421" y="130" key="FileChooserDialogImpl" timestamp="1603164541336">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1259" height="267" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1601329476749" />
+    <state x="421" y="130" key="FileChooserDialogImpl/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1603164541336" />
+    <state width="1659" height="427" key="GridCell.Tab.0.bottom" timestamp="1603137830349">
+      <screen x="-1680" y="-558" width="1680" height="1020" />
+    </state>
+    <state width="1659" height="427" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1603137830349" />
+    <state width="1259" height="264" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1602819394299" />
     <state width="1259" height="193" key="GridCell.Tab.0.bottom/0.31.1280.689@0.31.1280.689" timestamp="1600869121135" />
-    <state width="1259" height="267" key="GridCell.Tab.0.center" timestamp="1601329476749">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state width="1659" height="427" key="GridCell.Tab.0.center" timestamp="1603137830348">
+      <screen x="-1680" y="-558" width="1680" height="1020" />
     </state>
-    <state width="1259" height="267" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1601329476749" />
+    <state width="1659" height="427" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1603137830348" />
+    <state width="1259" height="264" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1602819394299" />
     <state width="1259" height="193" key="GridCell.Tab.0.center/0.31.1280.689@0.31.1280.689" timestamp="1600869121135" />
-    <state width="1259" height="267" key="GridCell.Tab.0.left" timestamp="1601329476749">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state width="1659" height="427" key="GridCell.Tab.0.left" timestamp="1603137830348">
+      <screen x="-1680" y="-558" width="1680" height="1020" />
     </state>
-    <state width="1259" height="267" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1601329476749" />
+    <state width="1659" height="427" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1603137830348" />
+    <state width="1259" height="264" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1602819394299" />
     <state width="1259" height="193" key="GridCell.Tab.0.left/0.31.1280.689@0.31.1280.689" timestamp="1600869121135" />
-    <state width="1259" height="267" key="GridCell.Tab.0.right" timestamp="1601329476749">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state width="1659" height="427" key="GridCell.Tab.0.right" timestamp="1603137830349">
+      <screen x="-1680" y="-558" width="1680" height="1020" />
     </state>
-    <state width="1259" height="267" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1601329476749" />
+    <state width="1659" height="427" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1603137830349" />
+    <state width="1259" height="264" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1602819394299" />
     <state width="1259" height="193" key="GridCell.Tab.0.right/0.31.1280.689@0.31.1280.689" timestamp="1600869121135" />
-    <state width="1259" height="267" key="GridCell.Tab.1.bottom" timestamp="1601329476749">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state width="1659" height="427" key="GridCell.Tab.1.bottom" timestamp="1603137830349">
+      <screen x="-1680" y="-558" width="1680" height="1020" />
     </state>
-    <state width="1259" height="267" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1601329476749" />
+    <state width="1659" height="427" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1603137830349" />
+    <state width="1259" height="264" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1602819394300" />
     <state width="1259" height="267" key="GridCell.Tab.1.bottom/0.31.1280.689@0.31.1280.689" timestamp="1600867266189" />
-    <state width="1259" height="267" key="GridCell.Tab.1.center" timestamp="1601329476749">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state width="1659" height="427" key="GridCell.Tab.1.center" timestamp="1603137830349">
+      <screen x="-1680" y="-558" width="1680" height="1020" />
     </state>
-    <state width="1259" height="267" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1601329476749" />
+    <state width="1659" height="427" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1603137830349" />
+    <state width="1259" height="264" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1602819394300" />
     <state width="1259" height="267" key="GridCell.Tab.1.center/0.31.1280.689@0.31.1280.689" timestamp="1600867266189" />
-    <state width="1259" height="267" key="GridCell.Tab.1.left" timestamp="1601329476749">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state width="1659" height="427" key="GridCell.Tab.1.left" timestamp="1603137830349">
+      <screen x="-1680" y="-558" width="1680" height="1020" />
     </state>
-    <state width="1259" height="267" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1601329476749" />
+    <state width="1659" height="427" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1603137830349" />
+    <state width="1259" height="264" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1602819394300" />
     <state width="1259" height="267" key="GridCell.Tab.1.left/0.31.1280.689@0.31.1280.689" timestamp="1600867266189" />
-    <state width="1259" height="267" key="GridCell.Tab.1.right" timestamp="1601329476749">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state width="1659" height="427" key="GridCell.Tab.1.right" timestamp="1603137830349">
+      <screen x="-1680" y="-558" width="1680" height="1020" />
     </state>
-    <state width="1259" height="267" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1601329476749" />
+    <state width="1659" height="427" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1603137830349" />
+    <state width="1259" height="264" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1602819394300" />
     <state width="1259" height="267" key="GridCell.Tab.1.right/0.31.1280.689@0.31.1280.689" timestamp="1600867266189" />
-    <state x="142" y="30" key="SettingsEditor" timestamp="1600343955781">
+    <state x="142" y="30" key="SettingsEditor" timestamp="1603164264524">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
+    <state x="142" y="30" key="SettingsEditor/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1603164264524" />
     <state x="142" y="30" key="SettingsEditor/0.31.1280.689@0.31.1280.689" timestamp="1600343955781" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1601322734458">
+    <state x="91" y="58" key="new project wizard" timestamp="1603164560751">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1601322734458" />
+    <state x="91" y="58" key="new project wizard/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1603164560751" />
+    <state x="-1282" y="-543" width="882" height="1004" key="search.everywhere.popup" timestamp="1603135305344">
+      <screen x="-1680" y="-558" width="1680" height="1020" />
+    </state>
+    <state x="-1282" y="-543" width="882" height="1004" key="search.everywhere.popup/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1603135305344" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1602815044228" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/204.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/optimal solution/Page-22.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/爬日报.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/爬日报.py</url>
-          <line>72</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/crawl_rmrb.py</url>
-          <line>120</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/206.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/219.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/223.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/223.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/234.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/257.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/283.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/342.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/347.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/315.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/287.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/127.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/127.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/127.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/131.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/146.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/148.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/166.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/166.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/73.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/91.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/code_test-2020/手写堆排序.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/code_test-2020/360_1.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/code_test-2020/didi2.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/1.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/code_test-2020/qunar1.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/code_test-2020/qunar2.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py/jianzhi59-I.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="c[j]" />
