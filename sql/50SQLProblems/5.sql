@@ -1,0 +1,1 @@
+SELECT * FROM teacher where tname like "Li%";

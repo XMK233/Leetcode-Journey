@@ -68,6 +68,10 @@ class Solution:
                 res += (mid - i + 1)
         return res
 
+# https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/solution/zi-wo-gan-jue-dai-ma-bi-guan-fang-jian-ji-shun-bia/
+## 这个作者的思路更容易理解.
+## 本py文件中的代码实际上是下面那个解析, 代码很难懂. 可以拿来装逼, 但是是在不利于理解和复习.
+
 # 作者：liweiwei1419
 # 链接：https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/solution/bao-li-jie-fa-fen-zhi-si-xiang-shu-zhuang-shu-zu-b/
 # 来源：力扣（LeetCode）

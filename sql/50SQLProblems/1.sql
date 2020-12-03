@@ -1,0 +1,8 @@
+-- select * from  (
+--    select t1.SId, class1, class2
+--    from
+--        (SELECT SId, score as class1 FROM sc WHERE sc.CId = '01') t1,
+--        (SELECT SId, score as class2 FROM sc WHERE sc.CId = '02') t2
+--    where t1.SId = t2.SId and t1.class1 > t2.class2
+-- ) r, Student where r.SId = student.sid;
+-- ON Student.SId = r.SId;
