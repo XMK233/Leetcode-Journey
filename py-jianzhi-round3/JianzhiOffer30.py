@@ -29,3 +29,63 @@ minStack.min();   --> 返回 -2.
 
 注意：本题与主站 155 题相同：https://leetcode-cn.com/problems/min-stack/
 '''
+
+class MinStack:
+
+    def __init__(self):
+        """
+        initialize your data structure here.
+        """
+        self.stackGeneral = []
+        self.stackMin = []
+
+    def push(self, x: int) -> None:
+        self.stackGeneral.append(x)
+        if len(self.stackMin) == 0:
+            self.stackMin.append(x)
+        else:
+            self.stackMin.append(min(x, self.stackMin[-1]))
+
+    def pop(self) -> None:
+        if len(self.stackGeneral) == 0:
+            pass
+        else:
+            self.stackMin.pop(-1)
+            self.stackGeneral.pop(-1)
+
+    def top(self) -> int:
+        return None if len(self.stackGeneral) == 0 else self.stackGeneral[-1]
+
+    def min(self) -> int:
+        return None if len(self.stackMin) == 0 else self.stackMin[-1]
+
+### 思路非常简单，就是如果新加入一个数字，那么min数组也要对应增加一个当前最小值。
+
+# Your MinStack object will be instantiated and called as such:
+# obj = MinStack()
+# obj.push(x)
+# obj.pop()
+# param_3 = obj.top()
+# param_4 = obj.min()
+
+##-----------------------------------------------------------------------------
+
+import os, sys, re
+selfName = os.path.basename(sys.argv[0])
+id = selfName.replace("JianzhiOffer", "").replace(".py", "")
+# id = "57"
+
+round1_dir = "C:/Users/XMK23/Documents/Leetcode-Journey/py-jianzhi-round1"
+for f in os.listdir(round1_dir):
+    if ".py" not in f:
+        continue
+    num = re.findall("\d+-*I*", f)
+    if len(num) == 0:
+        continue
+    id_ = num[0]
+    if id == id_:
+        with open(os.path.join(round1_dir, f), "r", encoding="utf-8") as rdf:
+            lines = rdf.readlines()
+            print(f)
+            print("".join(lines))
+            print()

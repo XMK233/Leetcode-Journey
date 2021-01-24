@@ -49,3 +49,25 @@ print(Solution().isNumber("+.  123"))
 ## 参悟一下参考答案, 最关键的东西在于: 设计一个好的状态机, 状态的转移全靠这个了.
 ## 至于程序的设计, 则非常忠实地还原了状态机. 没什么可说的.
 ## 这道题考的就是状态机.
+
+##-----------------------------------------------------------------------------
+
+import os, sys, re
+selfName = os.path.basename(sys.argv[0])
+id = selfName.replace("JianzhiOffer", "").replace(".py", "")
+# id = "57"
+
+round1_dir = "C:/Users/XMK23/Documents/Leetcode-Journey/py-jianzhi-round1"
+for f in os.listdir(round1_dir):
+    if ".py" not in f:
+        continue
+    num = re.findall("\d+-*I*", f)
+    if len(num) == 0:
+        continue
+    id_ = num[0]
+    if id == id_:
+        with open(os.path.join(round1_dir, f), "r", encoding="utf-8") as rdf:
+            lines = rdf.readlines()
+            print(f)
+            print("".join(lines))
+            print()

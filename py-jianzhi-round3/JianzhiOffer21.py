@@ -36,3 +36,25 @@ class Solution:
 
 ## 思路是, 从左往右找第一个偶数, 从右往左找第一个奇数, 然后两者互换; 接着在左右边找偶数和奇数, 然后替换.
 ## 重复几次, 即可. 复杂度仅需O(n)
+
+##-----------------------------------------------------------------------------
+
+import os, sys, re
+selfName = os.path.basename(sys.argv[0])
+id = selfName.replace("JianzhiOffer", "").replace(".py", "")
+# id = "57"
+
+round1_dir = "C:/Users/XMK23/Documents/Leetcode-Journey/py-jianzhi-round1"
+for f in os.listdir(round1_dir):
+    if ".py" not in f:
+        continue
+    num = re.findall("\d+-*I*", f)
+    if len(num) == 0:
+        continue
+    id_ = num[0]
+    if id == id_:
+        with open(os.path.join(round1_dir, f), "r", encoding="utf-8") as rdf:
+            lines = rdf.readlines()
+            print(f)
+            print("".join(lines))
+            print()

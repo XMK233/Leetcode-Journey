@@ -63,3 +63,25 @@ class CQueue:
             ## 这里当年写错了. 最后一定要记得返回哦.
             return self.stackB.pop(-1)
         return -1
+
+##-----------------------------------------------------------------------------
+
+import os, sys, re
+selfName = os.path.basename(sys.argv[0])
+id = selfName.replace("JianzhiOffer", "").replace(".py", "")
+# id = "57"
+
+round1_dir = "C:/Users/XMK23/Documents/Leetcode-Journey/py-jianzhi-round1"
+for f in os.listdir(round1_dir):
+    if ".py" not in f:
+        continue
+    num = re.findall("\d+-*I*", f)
+    if len(num) == 0:
+        continue
+    id_ = num[0]
+    if id == id_:
+        with open(os.path.join(round1_dir, f), "r", encoding="utf-8") as rdf:
+            lines = rdf.readlines()
+            print(f)
+            print("".join(lines))
+            print()

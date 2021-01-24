@@ -52,3 +52,52 @@
 
  
 '''
+'''
+# 作者：z1m
+# 链接：https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/solution/lian-biao-de-shen-kao-bei-by-z1m/
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+## 这道题的主要思路是DFS.
+
+我自己又盘了一下，感觉这个DFS方法可以这么理解。
+相当于把这个链表看作是一棵树的节点。然后next和random分别是左子树和右子树。
+用dfs()辅助方法，就可以将左边和右边分别复制，然后分别赋给新节点的左右节点。
+是不是很6.，
+'''
+class Solution:
+    def copyRandomList(self, head):
+        def dfs(head):
+            if not head: return None
+            if head in visited:
+                return visited[head]
+            # 创建新结点
+            copy = Node(head.val, None, None)
+            visited[head] = copy
+            copy.next = dfs(head.next)
+            copy.random = dfs(head.random)
+            return copy
+        visited = {}
+        return dfs(head)
+
+##-----------------------------------------------------------------------------
+
+import os, sys, re
+selfName = os.path.basename(sys.argv[0])
+id = selfName.replace("JianzhiOffer", "").replace(".py", "")
+# id = "57"
+
+round1_dir = "C:/Users/XMK23/Documents/Leetcode-Journey/py-jianzhi-round1"
+for f in os.listdir(round1_dir):
+    if ".py" not in f:
+        continue
+    num = re.findall("\d+-*I*", f)
+    if len(num) == 0:
+        continue
+    id_ = num[0]
+    if id == id_:
+        with open(os.path.join(round1_dir, f), "r", encoding="utf-8") as rdf:
+            lines = rdf.readlines()
+            print(f)
+            print("".join(lines))
+            print()

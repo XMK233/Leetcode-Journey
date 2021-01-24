@@ -40,11 +40,12 @@ while True:
             rendered_body = driver.page_source
             page_source = etree.HTML(rendered_body)
             texts = page_source.xpath('//div[@class="notranslate"]//text()')
+            texts_total = "".join(texts).replace(u'\xa0', u' ')
             heheda = driver.find_element_by_xpath('//div[@class="notranslate"]')
             ## 打印信息到文件里。
             pyFileName = heheda.parent.title.split(".")[0].replace("剑指", "Jianzhi").replace(" ", "")
             with open(pyFileName + ".py", "w", encoding="utf-8") as f:
-                f.write("'''\n[{}]({})\n\n{}'''\n".format(heheda.parent.title, fullUrl, "".join(texts)))
+                f.write("'''\n[{}]({})\n\n{}'''\n".format(heheda.parent.title, fullUrl, texts_total))
             # break
 
         button = driverSource.find_element_by_xpath('//a[@class="reactable-next-page"]')

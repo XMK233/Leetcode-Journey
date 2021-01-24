@@ -55,3 +55,26 @@ print(Solution().cuttingRope(10))
 ### dp【i】就保留当前的最大乘积；
 ### dp[j]*(i-j)指的是，j之前的绳子经过裁剪，乘上j->i这段完整绳子的长度得到的乘积；
 ### j*(i-j)表示j之前的长度不裁剪，也就是长度为i的绳子只剪一刀就是在j处，能得到的最大乘积。
+
+
+##-----------------------------------------------------------------------------
+
+import os, sys, re
+selfName = os.path.basename(sys.argv[0])
+id = selfName.replace("JianzhiOffer", "").replace(".py", "")
+# id = "57"
+
+round1_dir = "C:/Users/XMK23/Documents/Leetcode-Journey/py-jianzhi-round1"
+for f in os.listdir(round1_dir):
+    if ".py" not in f:
+        continue
+    num = re.findall("\d+-*I*", f)
+    if len(num) == 0:
+        continue
+    id_ = num[0]
+    if id == id_:
+        with open(os.path.join(round1_dir, f), "r", encoding="utf-8") as rdf:
+            lines = rdf.readlines()
+            print(f)
+            print("".join(lines))
+            print()

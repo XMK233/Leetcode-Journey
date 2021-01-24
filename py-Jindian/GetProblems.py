@@ -40,6 +40,7 @@ while True:
         rendered_body = driver.page_source
         page_source = etree.HTML(rendered_body)
         texts = page_source.xpath('//div[@class="notranslate"]//text()')
+        texts_total = "".join(texts).replace(u'\xa0', u' ')
         heheda = driver.find_element_by_xpath("//div[@class='notranslate']")
         ## 要等一下ho, 等他加载ho.
         ## 如果有加载失败的, 可以再调高这个等待的时间.
@@ -48,12 +49,12 @@ while True:
         try:
             pyFileName = re.findall("\d+.\d+", heheda.parent.title)[0] # heheda.parent.title.split(" ")[1][:-1].replace(".", "-")
             with open(pyFileName + ".py", "w", encoding="utf-8") as f:
-                f.write("'''\n[{}]({})\n\n{}'''\n".format(heheda.parent.title, fullUrl, "".join(texts)))
+                f.write("'''\n[{}]({})\n\n{}'''\n".format(heheda.parent.title, fullUrl, texts_total))
         except:
             try:
                 pyFileName = re.findall("\d+.\d+", driver.title)[0]
                 with open(pyFileName + ".py", "w", encoding="utf-8") as f:
-                    f.write("'''\n[{}]({})\n\n{}'''\n".format(driver.title, fullUrl, "".join(texts)))
+                    f.write("'''\n[{}]({})\n\n{}'''\n".format(driver.title, fullUrl, texts_total))
             except:
                 print(fullUrl)
         # break
