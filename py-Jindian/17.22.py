@@ -27,3 +27,35 @@ wordList = ["hot","dot","dog","lot","log"]
 
 解释: endWord "cog" 不在字典中，所以不存在符合要求的转换序列。
 '''
+import collections
+class Solution:
+    def findLadders(self, beginWord: str, endWord: str, wordList):
+        # DFS
+        hashmap = collections.defaultdict(list)
+        for word in wordList:
+            for i in range(len(word)):
+                hashmap[word[:i] + '*' + word[i + 1:]].append(word)
+        stack = [beginWord]
+        w_dict = {beginWord: [beginWord]}
+        while stack:
+            word = stack.pop()
+            if word == endWord:
+                return w_dict[word]
+            for i in range(len(word)):
+                if word[:i] + '*' + word[i + 1:] in hashmap:
+                    for tmp in hashmap[word[:i] + '*' + word[i + 1:]]:
+                        if tmp not in w_dict:
+                            w_dict[tmp] = w_dict[word] + [tmp]
+                            stack.append(tmp)
+        return []
+
+s = Solution()
+print(s.findLadders(
+    "hit", "cog",
+    ["hot","dot","dog","lot","log","cog"]
+))
+
+# 作者：rao-zhi-cheng-shang-2
+# 链接：https://leetcode-cn.com/problems/word-transformer-lcci/solution/python3-dfs-bfs-jian-zhi-by-rao-zhi-cheng-shang-2/
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
