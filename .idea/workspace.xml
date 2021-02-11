@@ -23,19 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e22ebe-44be-4604-971f-f9093dad4aae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ101.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ106.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ23.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ25.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ27.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ33.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC68.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ41.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/HJ68.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/Jindian0808.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC37.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC52.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/leetcode1614.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/leetcode674.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/leetcode77.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/HJ25.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems/HJ25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/HJ27.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems/HJ27.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,8 +157,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.HJ27">
-    <configuration name="HJ101" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.HJ41">
+    <configuration name="HJ41" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,7 +170,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/HJ101.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/HJ41.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HJ106" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NC37" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/HJ106.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/NC37.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HJ27" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode1614" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,7 +212,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/HJ27.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/leetcode1614.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HJ33" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode674" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,7 +233,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/HJ33.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/leetcode674.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,7 +242,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HJ8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode77" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,7 +254,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/HJ8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/leetcode77.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HJ27" />
-        <item itemvalue="Python.HJ8" />
-        <item itemvalue="Python.HJ106" />
-        <item itemvalue="Python.HJ101" />
-        <item itemvalue="Python.HJ33" />
+        <item itemvalue="Python.HJ41" />
+        <item itemvalue="Python.leetcode674" />
+        <item itemvalue="Python.leetcode77" />
+        <item itemvalue="Python.leetcode1614" />
+        <item itemvalue="Python.NC37" />
       </list>
     </recent_temporary>
   </component>
@@ -304,10 +303,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="407" y="101" width="693" height="594" key="#xdebugger.evaluate" timestamp="1612836315360">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state x="-847" y="-449" width="693" height="594" key="#xdebugger.evaluate" timestamp="1613001295618">
+      <screen x="-1680" y="-558" width="1680" height="1020" />
     </state>
-    <state x="-847" y="-449" key="#xdebugger.evaluate/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1610343216187" />
+    <state x="-847" y="-449" key="#xdebugger.evaluate/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001295618" />
     <state x="407" y="101" width="693" height="594" key="#xdebugger.evaluate/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1612836315360" />
     <state x="465" y="239" width="350" height="319" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1604814533781">
       <screen x="0" y="31" width="1280" height="689" />
@@ -321,53 +320,53 @@
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state x="421" y="130" key="FileChooserDialogImpl/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1611091235628" />
-    <state width="1259" height="114" key="GridCell.Tab.0.bottom" timestamp="1612841748719">
+    <state width="1259" height="223" key="GridCell.Tab.0.bottom" timestamp="1613021312729">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1659" height="422" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1612767877432" />
-    <state width="1259" height="114" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1612841748719" />
+    <state width="1659" height="159" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
+    <state width="1259" height="223" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613021312729" />
     <state width="1259" height="184" key="GridCell.Tab.0.bottom/0.31.1280.689@0.31.1280.689" timestamp="1608606166558" />
-    <state width="1259" height="114" key="GridCell.Tab.0.center" timestamp="1612841748719">
+    <state width="1259" height="223" key="GridCell.Tab.0.center" timestamp="1613021312729">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1659" height="422" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1612767877432" />
-    <state width="1259" height="114" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1612841748719" />
+    <state width="1659" height="159" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
+    <state width="1259" height="223" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613021312729" />
     <state width="1259" height="184" key="GridCell.Tab.0.center/0.31.1280.689@0.31.1280.689" timestamp="1608606166558" />
-    <state width="1259" height="114" key="GridCell.Tab.0.left" timestamp="1612841748719">
+    <state width="1259" height="223" key="GridCell.Tab.0.left" timestamp="1613021312729">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1659" height="422" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1612767877432" />
-    <state width="1259" height="114" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1612841748719" />
+    <state width="1659" height="159" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
+    <state width="1259" height="223" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613021312729" />
     <state width="1259" height="184" key="GridCell.Tab.0.left/0.31.1280.689@0.31.1280.689" timestamp="1608606166557" />
-    <state width="1259" height="114" key="GridCell.Tab.0.right" timestamp="1612841748719">
+    <state width="1259" height="223" key="GridCell.Tab.0.right" timestamp="1613021312729">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1659" height="422" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1612767877432" />
-    <state width="1259" height="114" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1612841748719" />
+    <state width="1659" height="159" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
+    <state width="1259" height="223" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613021312729" />
     <state width="1259" height="184" key="GridCell.Tab.0.right/0.31.1280.689@0.31.1280.689" timestamp="1608606166558" />
-    <state width="1259" height="260" key="GridCell.Tab.1.bottom" timestamp="1612837609202">
+    <state width="1259" height="223" key="GridCell.Tab.1.bottom" timestamp="1613021312731">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1659" height="422" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1612767877432" />
-    <state width="1259" height="260" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1612837609202" />
+    <state width="1659" height="247" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
+    <state width="1259" height="223" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613021312731" />
     <state width="1259" height="184" key="GridCell.Tab.1.bottom/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
-    <state width="1259" height="260" key="GridCell.Tab.1.center" timestamp="1612837609202">
+    <state width="1259" height="223" key="GridCell.Tab.1.center" timestamp="1613021312730">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1659" height="422" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1612767877432" />
-    <state width="1259" height="260" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1612837609202" />
+    <state width="1659" height="247" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
+    <state width="1259" height="223" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613021312730" />
     <state width="1259" height="184" key="GridCell.Tab.1.center/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
-    <state width="1259" height="260" key="GridCell.Tab.1.left" timestamp="1612837609202">
+    <state width="1259" height="223" key="GridCell.Tab.1.left" timestamp="1613021312730">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1659" height="422" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1612767877432" />
-    <state width="1259" height="260" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1612837609202" />
+    <state width="1659" height="247" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
+    <state width="1259" height="223" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613021312730" />
     <state width="1259" height="184" key="GridCell.Tab.1.left/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
-    <state width="1259" height="260" key="GridCell.Tab.1.right" timestamp="1612837609202">
+    <state width="1259" height="223" key="GridCell.Tab.1.right" timestamp="1613021312730">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1659" height="422" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1612767877432" />
-    <state width="1259" height="260" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1612837609202" />
+    <state width="1659" height="247" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
+    <state width="1259" height="223" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613021312730" />
     <state width="1259" height="184" key="GridCell.Tab.1.right/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
     <state x="-1339" y="-404" key="SettingsEditor" timestamp="1609438753963">
       <screen x="-1680" y="-558" width="1680" height="1020" />
@@ -378,11 +377,11 @@
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="647" height="352" key="XDebugger.FullValuePopup/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1611011431287" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1612831653534">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1613021352425">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state x="-1282" y="-543" width="882" height="1004" key="search.everywhere.popup/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1612766291148" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1612831653534" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613021352425" />
     <state x="303" y="41" width="672" height="679" key="search.everywhere.popup/0.31.1280.689@0.31.1280.689" timestamp="1608605591860" />
   </component>
   <component name="XDebuggerManager">
@@ -507,6 +506,26 @@
           <url>file://$PROJECT_DIR$/NowcoderProblems/HJ8.py</url>
           <line>36</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NowcoderProblems/HJ27.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NowcoderProblems/HJ27.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NowcoderProblems/leetcode674.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NowcoderProblems/HJ41.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

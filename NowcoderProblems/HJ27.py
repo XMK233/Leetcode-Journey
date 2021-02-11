@@ -33,26 +33,41 @@ def isBrothers(word1, word2):
             return False
     return True
 
-print(
-    isBrothers("dacbb", "a")
-)
+items = input().split()
+# items = '''473 bb daccb caddd bddc c baa adb ad abbcb cdaa abab a abcc ddcbd cadcc cdacd aaa a b acccd bbb dacc cc acbdd bcbb ba bacaa adda acd aaad d ab acac bc dabab abcd aacba aba daa bb ad cddab a bbaa aacad cdac acbcc cada bacd adcad cdadc bcbcc aa b acd cbaac ddcd ccb dac a dac adbcb bcda dda a ab ca dd d abd a dbb ccabd bdddd abd adc aaa baccb ccdcd a da c cadc dcdbd d aa bb a cac c ad adb ca cdcc cadd dddca d cba cb caab caa dd cd bca abc cdaa cdb bad dad bda d ddbc dab baaa adaac b a dbccd bd b bdad cdacd baa ac ddcad d bb acc aa cd cbdbb bbbcb a cc aacc c aadc dbcd a bca dd abbb ccdcd ccd ab d a a dadcd dbd bcaa c cda b ddab caaaa cdcdb b acbc ccaa dabca dcd b ba dbcc da bdbcc ab abaca bb cddc caca da dadba accdd bdac dbcd bcbbd ab bd ccb ddaa aa b b d bddd cabac aaba ab ccdb db abbd ada bdadb c abba dd cdb bca cccda badba abaa ac aabad db ccbad bddd ada dba acba b bc dd bbbbd cc cbdd cd abcaa bb ddaca acadb bbbb bddcc bdada aaa bcbda c aaa aadd cdddc adb cdbab c cbca bb aacab acdb bbdab b acbda cbdcd bda bacdc db d adcbd bccc c aaa cdd bdcd bac a aaab ddbb cd ccdbb addcc cdc c ca baadc addba dbdbd dba bbdda bcb c cdad aacac dcada cb aaad a cccab caca aad bbb dd b babbb cba bdaca db bacd bc bcbda cdda bcccd bdcda bdbcd adb cbcb a c bacba abbb adab adab b b d bca badbc baa cdb b abc aabb b d c cdab cacda d cdcda adcdc bcc bbccd b adb caba cbaaa aadb dcc add bcac bacbd bb a b c cabaa c caad c aa bcc ccab ddc dadca cdcba aaba dabbd dcb a bddb bb a c c cbc ccd dd a cabbb b caadb cb dca cbb ddaa bcadc dab a bbda cd bc ccad bbd ab c acddd cdd dbbbb daaab abbb cabc add ca caa bbbb dcab daaaa baca dcd ccacb ba bddaa acac dbcc bcc cbbcc b abba daa dbab bcca ba aa d dcdc d dcaa cbcda bd b ccbcb baa dcacd d c cbda baba d abb c cbdc da dbbb cd aabc dadc b a ddb c ddd ccdc ccd cba dbaac dcccd ddbac dbbdd bad bcdd cb dac dccd d a acdd d c cb b bcbb c a aca bcba d d bbdbc d c dabad ccca dc adb ddb dcdd dba ad ddaba c ac ddac bbbd cd a dacbb 1'''.split()
+# items = "2 bcbda bcbda dacbb 1".split()
+numOfWords = int(items[0])
+order = int(items[-1])
+target = items[-2]
+words = items[1: 1+numOfWords] ## 之前一直ac不了是因为这里我给它set(words)操作了一波, 属于画蛇添足.
+bros_l = []
+target_sorted = "".join(sorted(target))
+for word in words:
+    ## 自己不算
+    if target == word:
+        continue
+    ##
+    if isBrothers(word, target):
+        # bros[word] = 1
+        bros_l.append(word)
+bros_l.sort()
+print(len(bros_l))
+if order <= len(bros_l):
+    print(bros_l[order-1])
 
-# items = input().split()
-# numOfWords = int(items[0])
-# order = int(items[-1])
-# target = items[-2]
-# words = items[1:1+numOfWords]
-# bros = {}
-# for word in words:
-#     ## 自己不算
-#     if target == word:
-#         continue
-#     ##
-#     if isBrothers(word, target):
-#         bros[word] = 1
-# print(len(bros))
-# answer = sorted(bros.keys())
-# if order <= len(answer):
-#     print(answer[order-1])
+# from collections import defaultdict
+# dd = defaultdict(list)
+# a = items
+# # words是输入的单词，lookup是要查找的单词，num是要查找兄弟单词的索引，brothers是找到的兄弟单词列表
+# words, lookup, num, brothers = a[1:1 + int(a[0])], a[-2], int(a[-1]), []
+# for i in words:
+#     dd["".join(sorted(i))].append(i)
+# for i in dd["".join(sorted(lookup))]:
+#     if i != lookup: brothers.append(i)
+# # 下面这两行坑的老子调了半个小时。
+# print(len(brothers))
+# if brothers and num <= len(brothers):
+#     print(sorted(brothers)[num - 1])
+# print(sorted(brothers))
 
 

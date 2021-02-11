@@ -64,4 +64,82 @@ I整数对应的数字需要连续包含R<i>对应的数字。比如R<i>为23，
 
 '''
 
+Inf = []
+while True:
+    try:
+        Inf.append(input())
+    except:
+        break
 
+## 输入
+I = None
+R = None
+for k, line in enumerate(Inf):
+    if k % 2 == 0:
+        I = line.split()[1:]
+    else:
+        R = set(line.split()[1:])
+        ## 排序去重
+        R = list(R)
+        R = [int(m) for m in R]
+        R.sort()
+
+        ##
+        import collections
+
+        m = collections.defaultdict(list)
+        for i, Ri in enumerate(R):
+            for j, Ij in enumerate(I):
+                if str(Ri) in Ij:
+                    m[Ri].append((str(j), Ij))
+        res = []
+        numOfNumbers = 0
+        for Ri in R:
+            if len(m[Ri]) == 0:
+                continue
+            res.append(str(Ri))
+            numOfNumbers += 1
+            res.append(str(len(m[Ri])))
+            numOfNumbers += 1
+            for item in m[Ri]:
+                res.extend([item[0], item[1]])
+                numOfNumbers += 2
+        res.insert(0, str(numOfNumbers))
+        # print(res)
+        print(" ".join(res))
+
+
+        ##################3
+#
+# line1 = "7 6396 4598 8539 6047 2019 11269 7402"
+# line2 = "3 16 4 26"
+#
+# I = line1.split()[1:]
+# R = set(line2.split()[1:])
+#
+# R = list(R)
+# R = [int(m) for m in R]
+# R.sort()
+#
+# ##
+# import collections
+# m = collections.defaultdict(list)
+# for i, Ri in enumerate(R):
+#     for j, Ij in enumerate(I):
+#         if str(Ri) in Ij:
+#             m[Ri].append((str(j), Ij))
+# res = []
+# numOfNumbers = 0
+# for Ri in R:
+#     if len(m[Ri]) == 0:
+#         continue
+#     res.append(str(Ri))
+#     numOfNumbers += 1
+#     res.append(str(len(m[Ri])))
+#     numOfNumbers += 1
+#     for item in m[Ri]:
+#         res.extend([item[0], item[1]])
+#         numOfNumbers += 2
+# res.insert(0, str(numOfNumbers))
+# # print(res)
+# print(" ".join(res))
