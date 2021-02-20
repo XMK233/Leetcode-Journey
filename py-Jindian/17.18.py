@@ -26,6 +26,71 @@ small = [4]
 	1 <= small.length <= 100000
 
 '''
+
+# class Solution:
+#     def shortestSeq(self, S, T):
+#         ## 直接处理掉空串的情况
+#         if len(T) == 0:
+#             return []
+#         # write code here
+#         numOfTargetChar = {}
+#         for c in T:
+#             if c not in numOfTargetChar:
+#                 numOfTargetChar[c] = 1
+#             else:
+#                 numOfTargetChar[c] += 1
+#         numOfCurrentlyMet = {}
+#         for c in T:
+#             numOfCurrentlyMet[c] = 0
+#         howManyToGo = len(set(T)) ## 这边假定T里面的字符串全都不重复
+#
+#         head, tail = 0, 0
+#         tgtHead, tgtTail = 0, 0
+#         minSubString = [-1] * (len(S) + 1) ##"_" * (len(S) + 1) ## 这个初始长度, 绝对大于S的任何子串吧.
+#
+#         while tail < len(S):
+#             while howManyToGo > 0 and tail < len(S):
+#                 if S[tail] in T:
+#                     ## howmanytogo指的是T中还有多少个字符还没在S中找到
+#                     if numOfCurrentlyMet[S[tail]] == numOfTargetChar[S[tail]] - 1: ## 这个条件说明啊, 字符 S[tail] 是第一次被找到.
+#                     # if numOfCurrentlyMet[S[tail]] == 0:  ## 这个条件说明啊, 字符 S[tail] 是第一次被找到.
+#                         howManyToGo -= 1
+#                     numOfCurrentlyMet[S[tail]] += 1  ## 这里指的是, 这个S[tail]字符迄今为止遇到了几次了. 因为可能遇到不止一次嘛, 就记一下次数.
+#                 # else:
+#                 #     pass
+#                 if howManyToGo == 0:
+#                     break
+#                 else:
+#                     tail += 1
+#
+#             if tail >= len(S):
+#                 break
+#
+#             while S[head] not in T:
+#                 head += 1
+#             curSubString = S[head:tail + 1]
+#             if len(curSubString) < len(minSubString):
+#                 minSubString = curSubString
+#                 tgtHead = head
+#                 tgtTail = tail
+#
+#             numOfCurrentlyMet[S[head]] -= 1
+#             # if numOfCurrentlyMet[S[head]] == 0:## 如果有一个T中的字符, 不再在[head + 1, tail]之间了, 那么这个字符的计数就要扣掉.
+#             if numOfCurrentlyMet[S[head]] < numOfTargetChar[S[head]]:
+#                 howManyToGo += 1
+#                 tail += 1 ## tail也要相应地往后移动一位, 开始新的征程.
+#             head += 1
+#
+#         # if tail >= len(S):
+#         return [] if len(minSubString) == (len(S) + 1) else [tgtHead, tgtTail]#minSubString
+#
+# print(
+#     Solution().shortestSeq(
+#         [1, 2, 3],
+#         [4]
+#     )
+# )
+
 import collections
 class Solution:
     def shortestSeq(self, big: List[int], small: List[int]) -> List[int]:
@@ -53,7 +118,10 @@ class Solution:
                 i += 1
         return [] if res[1] > len(big) else res
 
-# 作者：joeylin-m
-# 链接：https://leetcode-cn.com/problems/shortest-supersequence-lcci/solution/he-0076zui-xiao-fu-gai-zi-chuan-lei-si-d-naat/
-# 来源：力扣（LeetCode）
-# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+## 我自己在牛客网的NC28里面做过一次. NC28里面的题目更复杂, 因为T是有重复元素的. LC的题目极其类似, 但是这里的T没有重复.
+## 所以这一点上, 就已经不太一样了. 我用NC28的方法去求解, 得到的结果并不好, 有一些样例是会超时限的.
+
+# # 作者：joeylin-m
+# # 链接：https://leetcode-cn.com/problems/shortest-supersequence-lcci/solution/he-0076zui-xiao-fu-gai-zi-chuan-lei-si-d-naat/
+# # 来源：力扣（LeetCode）
+# # 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

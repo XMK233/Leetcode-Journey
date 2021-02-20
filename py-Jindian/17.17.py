@@ -21,3 +21,27 @@ smalls = ["is","ppi","hi","sis","i","ssippi"]
 	所有出现的字符均为英文小写字母。
 
 '''
+class Solution:
+    def multiSearch(self, big, smalls): ## 暴力解法. 没有技术含量.
+        res = [[] for small in smalls]
+        for i, c in enumerate(big):
+            for j, small in enumerate(smalls):
+                if small == "":
+                    continue
+                endIdx = i + len(small)
+                if endIdx > len(big):
+                    continue
+                if big[i:endIdx] == small:
+                    res[j].append(i)
+        return res
+
+## 暴力解法可以做, 但是效果有限. 考虑用树来弄?
+## 可以参考 https://leetcode-cn.com/problems/multi-search-lcci/solution/python-zi-dian-shu-by-wiking-e/
+
+s = Solution().multiSearch(
+    "mississippi",
+    ["is","ppi","hi","sis","i","ssippi"]
+    )
+print(s)
+
+
