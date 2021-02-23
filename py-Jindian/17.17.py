@@ -36,7 +36,52 @@ class Solution:
         return res
 
 ## 暴力解法可以做, 但是效果有限. 考虑用树来弄?
-## 可以参考 https://leetcode-cn.com/problems/multi-search-lcci/solution/python-zi-dian-shu-by-wiking-e/
+
+class Trie:
+    def __init__(self, words):
+        self.root = {}
+        for word in words:
+            node = self.root
+            for c in word:
+                if c not in node:
+                    node[c] = {}
+                node = node[c]
+            node['leaf'] = word
+
+    def search(self, s):
+        ret = []
+        node = self.root
+        for c in s:
+            if c in node:
+                node = node[c]
+            else:
+                break
+            if 'leaf' in node:
+                ret.append(node['leaf'])
+
+        return ret
+from collections import defaultdict
+class Solution:
+    def multiSearch(self, big: str, smalls: List[str]) -> List[List[int]]:
+        trie = Trie(smalls)
+        hit = defaultdict(list)
+
+        for i in range(len(big)):
+            matchs = trie.search(big[i:])
+            for word in matchs:
+                hit[word].append(i)
+
+        ret = []
+        for m in smalls:
+            ret.append(hit[m])
+
+        return ret
+
+
+# 作者：wiking - e
+# 链接：https: // leetcode - cn.com / problems / multi - search - lcci / solution / python - zi - dian - shu - by - wiking - e /
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 s = Solution().multiSearch(
     "mississippi",
