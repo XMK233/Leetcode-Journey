@@ -17,3 +17,30 @@
 	1 <= len(words[i]) <= 100
 
 '''
+## 参考 https://leetcode-cn.com/problems/longest-word-lcci/solution/python-dfs-by-dangerusswilson-13/
+## 思路很简单, 很直接，估计跑起来性能比较低吧。应该有大量重复的步骤。
+class Solution:
+    def longestWord(self, words) -> str:
+        words.sort(key=lambda x: (-len(x), x))
+
+        def dfs(w, words):
+            if not w: return True
+            for i, nxt in enumerate(words):
+                if nxt == w[:len(nxt)]:
+                    if dfs(w[len(nxt):], words):
+                        return True
+            return False
+
+        for i, word in enumerate(words):
+            if dfs(word, words[i + 1:]):
+                return word
+
+        return ''
+
+
+# 作者：dangerusswilson
+# 链接：https: // leetcode - cn.com / problems / longest - word - lcci / solution / python - dfs - by - dangerusswilson - 13 /
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+

@@ -1,0 +1,21 @@
+call activate py1
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=1
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=2
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=3
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=4
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=5
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=6
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=7
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=8
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=9
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=10
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=11
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=12
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=13
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=14
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=15
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=16
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=17
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=18
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=19
+you-get https://www.bilibili.com/video/BV1Yi4y147FG?p=20

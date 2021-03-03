@@ -27,4 +27,29 @@
 输出： 12
 解释： 选择 1 号预约、 3 号预约、 5 号预约和 8 号预约，总时长 = 2 + 4 + 3 + 3 = 12。
 
+思路非常简单. 就是动态规划, max(当前的nums[i] + 上上轮的最大值, 上轮最大值)
+
+有点像那个小偷偷东西的题目.
+
 '''
+
+class Solution:
+    def massage(self, nums) -> int:
+        ### 如果长度不够, 直接GG了.
+        if len(nums) == 0:
+            return 0
+        ### 如果长度是够的:
+        m = -1
+        dp0, dp1 = 0, nums[0]
+        for i in range(1, len(nums)):
+            m = max(nums[i] + dp0, dp1)
+            dp0 = dp1
+            dp1 = m
+
+        return dp1
+
+print(
+    Solution().massage(
+        [1,2,3,1]
+    )
+)

@@ -23,8 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e22ebe-44be-4604-971f-f9093dad4aae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code_test-2020/Huawei_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_test-2020/Huawei_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-Jindian/17.17.py" beforeDir="false" afterPath="$PROJECT_DIR$/py-Jindian/17.17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-Jindian/17.15.py" beforeDir="false" afterPath="$PROJECT_DIR$/py-Jindian/17.15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-Jindian/17.16.py" beforeDir="false" afterPath="$PROJECT_DIR$/py-Jindian/17.16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,8 +151,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.17.17">
-    <configuration name="17.17" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="17.16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,7 +164,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py-Jindian/17.17.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py-Jindian/17.16.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +173,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17.18" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Huawei_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +181,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-Jindian" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_test-2020" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py-Jindian/17.18.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_test-2020/Huawei_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NC28" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Huawei_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,11 +202,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_test-2020" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/NC28.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_test-2020/Huawei_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +215,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leetcode994" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="huawei1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,11 +223,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/leetcode994.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huawei1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,7 +236,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="niuke-PrimeNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,11 +244,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/niuke-PrimeNumber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.17.17" />
-        <item itemvalue="Python.17.18" />
-        <item itemvalue="Python.NC28" />
-        <item itemvalue="Python.leetcode994" />
-        <item itemvalue="Python.niuke-PrimeNumber" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.huawei1" />
+        <item itemvalue="Python.17.16" />
+        <item itemvalue="Python.Huawei_2" />
+        <item itemvalue="Python.Huawei_1" />
       </list>
     </recent_temporary>
   </component>
@@ -303,61 +307,69 @@
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state x="421" y="130" key="FileChooserDialogImpl/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1611091235628" />
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1613775684521">
+    <state width="1259" height="112" key="GridCell.Tab.0.bottom" timestamp="1614724820537">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
-    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1613775684521" />
+    <state width="1899" height="356" key="GridCell.Tab.0.bottom/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656368632" />
+    <state width="1259" height="112" key="GridCell.Tab.0.bottom/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1614724820537" />
     <state width="1259" height="184" key="GridCell.Tab.0.bottom/0.31.1280.689@0.31.1280.689" timestamp="1608606166558" />
-    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1613775684521">
+    <state width="1259" height="112" key="GridCell.Tab.0.center" timestamp="1614724820536">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
-    <state width="1259" height="162" key="GridCell.Tab.0.center/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1613775684521" />
+    <state width="1899" height="356" key="GridCell.Tab.0.center/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656368631" />
+    <state width="1259" height="112" key="GridCell.Tab.0.center/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1614724820536" />
     <state width="1259" height="184" key="GridCell.Tab.0.center/0.31.1280.689@0.31.1280.689" timestamp="1608606166558" />
-    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1613775684521">
+    <state width="1259" height="112" key="GridCell.Tab.0.left" timestamp="1614724820536">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030096" />
-    <state width="1259" height="162" key="GridCell.Tab.0.left/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1613775684521" />
+    <state width="1899" height="356" key="GridCell.Tab.0.left/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656368631" />
+    <state width="1259" height="112" key="GridCell.Tab.0.left/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1614724820536" />
     <state width="1259" height="184" key="GridCell.Tab.0.left/0.31.1280.689@0.31.1280.689" timestamp="1608606166557" />
-    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1613775684521">
+    <state width="1259" height="112" key="GridCell.Tab.0.right" timestamp="1614724820536">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
-    <state width="1259" height="162" key="GridCell.Tab.0.right/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1613775684521" />
+    <state width="1899" height="356" key="GridCell.Tab.0.right/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656368632" />
+    <state width="1259" height="112" key="GridCell.Tab.0.right/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1614724820536" />
     <state width="1259" height="184" key="GridCell.Tab.0.right/0.31.1280.689@0.31.1280.689" timestamp="1608606166558" />
-    <state width="1259" height="211" key="GridCell.Tab.1.bottom" timestamp="1613775669143">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state width="1899" height="251" key="GridCell.Tab.1.bottom" timestamp="1614656371335">
+      <screen x="-1920" y="-525" width="1920" height="1050" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
-    <state width="1259" height="211" key="GridCell.Tab.1.bottom/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1613775669143" />
+    <state width="1899" height="251" key="GridCell.Tab.1.bottom/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
+    <state width="1259" height="211" key="GridCell.Tab.1.bottom/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1614231559525" />
     <state width="1259" height="184" key="GridCell.Tab.1.bottom/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
-    <state width="1259" height="211" key="GridCell.Tab.1.center" timestamp="1613775669143">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state width="1899" height="251" key="GridCell.Tab.1.center" timestamp="1614656371335">
+      <screen x="-1920" y="-525" width="1920" height="1050" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
-    <state width="1259" height="211" key="GridCell.Tab.1.center/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1613775669143" />
+    <state width="1899" height="251" key="GridCell.Tab.1.center/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
+    <state width="1259" height="211" key="GridCell.Tab.1.center/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1614231559525" />
     <state width="1259" height="184" key="GridCell.Tab.1.center/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
-    <state width="1259" height="211" key="GridCell.Tab.1.left" timestamp="1613775669143">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state width="1899" height="251" key="GridCell.Tab.1.left" timestamp="1614656371335">
+      <screen x="-1920" y="-525" width="1920" height="1050" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
-    <state width="1259" height="211" key="GridCell.Tab.1.left/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1613775669143" />
+    <state width="1899" height="251" key="GridCell.Tab.1.left/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
+    <state width="1259" height="211" key="GridCell.Tab.1.left/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1614231559525" />
     <state width="1259" height="184" key="GridCell.Tab.1.left/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
-    <state width="1259" height="211" key="GridCell.Tab.1.right" timestamp="1613775669143">
-      <screen x="0" y="31" width="1280" height="689" />
+    <state width="1899" height="251" key="GridCell.Tab.1.right" timestamp="1614656371335">
+      <screen x="-1920" y="-525" width="1920" height="1050" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
-    <state width="1259" height="211" key="GridCell.Tab.1.right/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1613775669143" />
+    <state width="1899" height="251" key="GridCell.Tab.1.right/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
+    <state width="1259" height="211" key="GridCell.Tab.1.right/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1614231559525" />
     <state width="1259" height="184" key="GridCell.Tab.1.right/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
     <state x="-1339" y="-404" key="SettingsEditor" timestamp="1609438753963">
       <screen x="-1680" y="-558" width="1680" height="1020" />
@@ -541,6 +553,11 @@
           <url>file://$PROJECT_DIR$/py-Jindian/17.17.py</url>
           <line>26</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code_test-2020/Huawei_2.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
