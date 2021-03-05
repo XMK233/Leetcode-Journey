@@ -7,8 +7,9 @@ import sys
 
 # with open ("download.bat", "w") as d:
 #     d.write("call activate py1\n")
-#     for i in range(1, 21):
-#         d.write("you-get https://www.bilibili.com/video/BV1Yi4y147FG?p={}\n".format(i))
+#     for i in range(1, 81):
+#         d.write("you-get https://www.bilibili.com/video/BV1Ji4y1c76c?p={}\n".format(i))
+#     d.write("pause\n")
 
 ## 求
 def maxDepth(node):
