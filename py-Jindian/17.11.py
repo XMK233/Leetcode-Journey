@@ -14,3 +14,23 @@
 	words.length <= 100000
 
 '''
+'''
+非常简洁明了. 就是双指针, 然后一个指针指向word1, 另一个指向word2, 然后随时记录两个指针之间的差值的最小值就好了. 
+'''
+# 方法2：双指针
+class Solution:
+    def findClosest(self, words: List[str], word1: str, word2: str) -> int:
+        idx1, idx2 = float("-inf"), float("inf")
+        res = len(words)
+        for idx, word in enumerate(words):
+            if word == word1:
+                idx1 = idx
+            elif word == word2:
+                idx2 = idx
+            res = min(res, abs(idx1-idx2))
+        return res
+
+# 作者：821218213
+# 链接：https://leetcode-cn.com/problems/find-closest-lcci/solution/mian-shi-ti-1711yong-zi-dian-ji-lu-dan-ci-chu-xian/
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

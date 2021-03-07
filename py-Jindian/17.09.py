@@ -10,3 +10,26 @@
 输出: 9
 
 '''
+
+'''
+本质上就是丑数啦. 参考剑指offer的49题. 
+'''
+
+class Solution:
+    def getKthMagicNumber(self, k: int) -> int:
+        UglyList = [1]
+        index3 = 0
+        index5 = 0
+        index7 = 0
+        for i in range(k - 1):
+            newUgly = min(UglyList[index3] * 3, UglyList[index5] * 5, UglyList[index7] * 7)
+            UglyList.append(newUgly)
+            if newUgly % 3 == 0:
+                index3 += 1
+            if newUgly % 5 == 0:
+                index5 += 1
+            if newUgly % 7 == 0:
+                index7 += 1
+        return UglyList[-1]
+
+

@@ -25,3 +25,32 @@
 	array.length <= 100000
 
 '''
+
+class Solution:
+    def findLongestSubarray(self, array):
+        diffToStartIndex = {}
+        diff = 0
+        s, e = 0, -1
+        for i, c in enumerate(array):
+            if '0' <= c[0] <= '9':
+                diff += 1
+            else:
+                diff -= 1
+            if diff == 0 and i > e - s:
+                s, e = -1, i
+            if diff not in diffToStartIndex:
+                diffToStartIndex[diff] = i
+            elif i - diffToStartIndex[diff] > e - s:
+                s, e = diffToStartIndex[diff], i
+        return array[s + 1:e + 1]
+
+print(
+    Solution().findLongestSubarray(
+        ["A","1","B","C","D","2","3","4","E","5","F","G","6","7","H","I","J","K","L","M"]
+    )
+)
+
+# 作者：suibianfahui
+# 链接：https://leetcode-cn.com/problems/find-longest-subarray-lcci/solution/chai-zhi-zi-dian-by-suibianfahui/
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

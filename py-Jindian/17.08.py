@@ -15,3 +15,53 @@
 	height.length == weight.length <= 10000
 
 '''
+'''
+大概的思路是酱紫的. 
+首先, 你要想到两重排序对不对. 第一重是按照身高来升序排序, 然后在此基础上按照体重来降序排序. 
+注意哦, 体重是按照降序来排序的. 
+然后, 因为身高已经是升序的了, 所以我们只关注体重就好了. 
+现在的体重是不单调的. 我们只需要找到体重的序列里面, 最长单调递增的长度就好了. 乌拉. 
+
+参考的思路可以说是OK了, 就是实现的细节还没撸通. 
+'''
+class Solution:
+    def bestSeqAtIndex(self, height, weight) -> int:
+        peoples = []
+        for i in range(len(height)):
+            peoples.append((height[i], weight[i]))
+
+        peoples.sort(key=lambda x: [x[0], -x[1]])
+        nums = [w[1] for w in peoples]
+
+        dp = []
+        for i in range(len(nums)):
+            if not dp or nums[i] > dp[-1]:
+                dp.append(nums[i])
+            else:
+                l = 0
+                r = len(dp)
+
+                while l < r:
+                    mid = (l + r) // 2
+                    if dp[mid] == nums[i]:
+                        l = mid
+                        r = mid
+                    elif dp[mid] > nums[i]:
+                        r = mid
+                    else:
+                        l = mid + 1
+
+                dp[l] = nums[i]
+
+        return len(dp)
+
+print(
+    Solution().bestSeqAtIndex(
+        [3,2,2,3,1,6], [7,3,5,6,2,10]
+    )
+)
+
+# 作者：godwriter
+# 链接：https: // leetcode - cn.com / problems / circus - tower - lcci / solution / pythonzhi - nan - shen - mei - de - dong - tai - gui - hua - shi - x - 4 /
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
