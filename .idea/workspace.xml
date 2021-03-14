@@ -23,23 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e22ebe-44be-4604-971f-f9093dad4aae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BuildTreeFromList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC116.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC117.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC130.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC134.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC135.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC138.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC159.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC64.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC69.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC72.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC78.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC79.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC83.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC98.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC107-寻找峰值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC110-旋转数组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems/NC118-数组中的逆序对.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowcoderProblems_1/copyFromOldFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC116.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC117.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC130.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC134.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC135.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC138.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC159.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC64.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC69.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC72.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC79.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC83.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems/NC98.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,8 +164,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.NC134">
-    <configuration name="NC116" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.NC88-寻找第K大-中等">
+    <configuration name="NC119-最小的K个数-中等" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,11 +173,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/NC116.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems_1/NC119-最小的K个数-中等.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +186,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NC134" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NC43-没有重复项数字的所有排列-中等" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,11 +194,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/NC134.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems_1/NC43-没有重复项数字的所有排列-中等.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NC72" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NC88-寻找第K大-中等" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,11 +215,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems/NC72.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems_1/NC88-寻找第K大-中等.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,7 +228,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="YoutubePlayList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NC9-二叉树中是否存在节点和为指定值的路径-简单" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,11 +236,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YoutubePlayList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems_1/NC9-二叉树中是否存在节点和为指定值的路径-简单.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NC92-最长公共子序列-中等" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,11 +257,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CrawlerTools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrawlerTools/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems_1/NC92-最长公共子序列-中等.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.NC134" />
-        <item itemvalue="Python.NC72" />
-        <item itemvalue="Python.NC116" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.YoutubePlayList" />
+        <item itemvalue="Python.NC88-寻找第K大-中等" />
+        <item itemvalue="Python.NC119-最小的K个数-中等" />
+        <item itemvalue="Python.NC43-没有重复项数字的所有排列-中等" />
+        <item itemvalue="Python.NC92-最长公共子序列-中等" />
+        <item itemvalue="Python.NC9-二叉树中是否存在节点和为指定值的路径-简单" />
       </list>
     </recent_temporary>
   </component>
@@ -308,79 +310,79 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="407" y="101" width="693" height="594" key="#xdebugger.evaluate" timestamp="1615603981116">
+    <state x="407" y="101" width="693" height="594" key="#xdebugger.evaluate" timestamp="1615702963495">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state x="-847" y="-449" key="#xdebugger.evaluate/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001295618" />
     <state x="407" y="101" width="693" height="594" key="#xdebugger.evaluate/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613189484636" />
-    <state x="407" y="101" key="#xdebugger.evaluate/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615603981116" />
+    <state x="407" y="101" key="#xdebugger.evaluate/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615702963495" />
     <state x="421" y="130" key="FileChooserDialogImpl" timestamp="1611091235628">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state x="421" y="130" key="FileChooserDialogImpl/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1611091235628" />
-    <state width="1259" height="158" key="GridCell.Tab.0.bottom" timestamp="1615622470125">
+    <state width="1259" height="185" key="GridCell.Tab.0.bottom" timestamp="1615706029634">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
     <state width="1899" height="356" key="GridCell.Tab.0.bottom/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656368632" />
-    <state width="1259" height="158" key="GridCell.Tab.0.bottom/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615622470125" />
+    <state width="1259" height="185" key="GridCell.Tab.0.bottom/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615706029634" />
     <state width="1259" height="184" key="GridCell.Tab.0.bottom/0.31.1280.689@0.31.1280.689" timestamp="1608606166558" />
-    <state width="1259" height="158" key="GridCell.Tab.0.center" timestamp="1615622470124">
+    <state width="1259" height="185" key="GridCell.Tab.0.center" timestamp="1615706029634">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
     <state width="1899" height="356" key="GridCell.Tab.0.center/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656368631" />
-    <state width="1259" height="158" key="GridCell.Tab.0.center/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615622470124" />
+    <state width="1259" height="185" key="GridCell.Tab.0.center/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615706029634" />
     <state width="1259" height="184" key="GridCell.Tab.0.center/0.31.1280.689@0.31.1280.689" timestamp="1608606166558" />
-    <state width="1259" height="158" key="GridCell.Tab.0.left" timestamp="1615622470124">
+    <state width="1259" height="185" key="GridCell.Tab.0.left" timestamp="1615706029633">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030096" />
     <state width="1899" height="356" key="GridCell.Tab.0.left/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656368631" />
-    <state width="1259" height="158" key="GridCell.Tab.0.left/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615622470124" />
+    <state width="1259" height="185" key="GridCell.Tab.0.left/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615706029633" />
     <state width="1259" height="184" key="GridCell.Tab.0.left/0.31.1280.689@0.31.1280.689" timestamp="1608606166557" />
-    <state width="1259" height="158" key="GridCell.Tab.0.right" timestamp="1615622470125">
+    <state width="1259" height="185" key="GridCell.Tab.0.right" timestamp="1615706029634">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
     <state width="1899" height="356" key="GridCell.Tab.0.right/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656368632" />
-    <state width="1259" height="158" key="GridCell.Tab.0.right/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615622470125" />
+    <state width="1259" height="185" key="GridCell.Tab.0.right/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615706029634" />
     <state width="1259" height="184" key="GridCell.Tab.0.right/0.31.1280.689@0.31.1280.689" timestamp="1608606166558" />
-    <state width="1259" height="127" key="GridCell.Tab.1.bottom" timestamp="1615622275065">
+    <state width="1259" height="213" key="GridCell.Tab.1.bottom" timestamp="1615703188544">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
     <state width="1899" height="251" key="GridCell.Tab.1.bottom/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
-    <state width="1259" height="127" key="GridCell.Tab.1.bottom/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615622275065" />
+    <state width="1259" height="213" key="GridCell.Tab.1.bottom/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615703188544" />
     <state width="1259" height="184" key="GridCell.Tab.1.bottom/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
-    <state width="1259" height="127" key="GridCell.Tab.1.center" timestamp="1615622275065">
+    <state width="1259" height="213" key="GridCell.Tab.1.center" timestamp="1615703188543">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
     <state width="1899" height="251" key="GridCell.Tab.1.center/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
-    <state width="1259" height="127" key="GridCell.Tab.1.center/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615622275065" />
+    <state width="1259" height="213" key="GridCell.Tab.1.center/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615703188543" />
     <state width="1259" height="184" key="GridCell.Tab.1.center/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
-    <state width="1259" height="127" key="GridCell.Tab.1.left" timestamp="1615622275065">
+    <state width="1259" height="213" key="GridCell.Tab.1.left" timestamp="1615703188543">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
     <state width="1899" height="251" key="GridCell.Tab.1.left/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
-    <state width="1259" height="127" key="GridCell.Tab.1.left/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615622275065" />
+    <state width="1259" height="213" key="GridCell.Tab.1.left/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615703188543" />
     <state width="1259" height="184" key="GridCell.Tab.1.left/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
-    <state width="1259" height="127" key="GridCell.Tab.1.right" timestamp="1615622275065">
+    <state width="1259" height="213" key="GridCell.Tab.1.right" timestamp="1615703188543">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
     <state width="1899" height="251" key="GridCell.Tab.1.right/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
-    <state width="1259" height="127" key="GridCell.Tab.1.right/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615622275065" />
+    <state width="1259" height="213" key="GridCell.Tab.1.right/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1615703188543" />
     <state width="1259" height="184" key="GridCell.Tab.1.right/0.31.1280.689@0.31.1280.689" timestamp="1608606168886" />
     <state x="-1339" y="-404" key="SettingsEditor" timestamp="1609438753963">
       <screen x="-1680" y="-558" width="1680" height="1020" />
@@ -607,29 +609,44 @@
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NowcoderProblems/NC130.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="72" />
+          <url>file://$PROJECT_DIR$/NowcoderProblems/NC108-最大正方形.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NowcoderProblems/NC138.py</url>
-          <line>62</line>
-          <option name="timeStamp" value="74" />
+          <url>file://$PROJECT_DIR$/NowcoderProblems/NC108-最大正方形.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NowcoderProblems/NC159.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="76" />
+          <url>file://$PROJECT_DIR$/NowcoderProblems_1/copyFromOldFiles.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NowcoderProblems/NC98.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="81" />
+          <url>file://$PROJECT_DIR$/NowcoderProblems_1/NC89-字符串变形-简单.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NowcoderProblems/NC72.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="82" />
+          <url>file://$PROJECT_DIR$/NowcoderProblems_1/NC108-最大正方形-中等.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NowcoderProblems_1/NC126-换钱的最少货币数-简单.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NowcoderProblems_1/NC43-没有重复项数字的所有排列-中等.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NowcoderProblems_1/NC95-最长连续子序列-较难.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

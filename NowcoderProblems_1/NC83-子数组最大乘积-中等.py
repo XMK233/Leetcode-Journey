@@ -1,3 +1,9 @@
+# -*- coding:utf-8 -*-
+'''
+https://www.nowcoder.com/practice/9c158345c867466293fc413cff570356?tpId=117&&tqId=37785&&companyId=665&rp=1&ru=/company/home/code/665&qru=/ta/job-code-high/question-ranking
+
+
+'''
 #
 #
 # @param arr double浮点型一维数组
@@ -21,9 +27,11 @@
 class Solution:
     def maxProduct(self , arr ):
         if arr == []: return 0.0
-        imax ,imin ,res = arr[0], arr[0], arr[0]
+        imax, imin, res = arr[0], arr[0], arr[0]
         for i in range(1,len(arr)):
-            imax = max(arr[i] * imax, arr[i] * imin, arr[i])
-            imin = min(arr[i] * imax, arr[i] * imin, arr[i])
+            candidate1 = arr[i] * imax
+            candidate2 = arr[i] * imin
+            imax = max(candidate1, candidate2, arr[i]) ## 第三个candidate就是arr[i], 为什么是它呢? 如果前面的imax, imin都是负数, 而arr[i]是正数,那么子数组直接从i开始就好了, 没必要从更早前开始.
+            imin = min(candidate1, candidate2, arr[i])
             res = max(res,imax)
         return res
