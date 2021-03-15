@@ -47,7 +47,7 @@ class Solution:
         ## 这个i,j就说明了, 我们从左下角开始的.
         i = len(matrix) - 1
         j = 0
-        while i >= 0 and j < len(matrix):
+        while i >= 0 and j < len(matrix[0]):
             if matrix[i][j] == target:
                 return True
             elif matrix[i][j] < target:
