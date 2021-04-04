@@ -8,7 +8,7 @@ import sys
 # with open ("download.bat", "w") as d:
 #     d.write("call activate py1\n")
 #     for i in range(1, 81):
-#         d.write("you-get https://www.bilibili.com/video/BV1Ji4y1c76c?p={}\n".format(i))
+#         d.write("you-get https://www.bilibili.com/video/BV1jt4y1D78C?p={}\n".format(i))
 #     d.write("pause\n")
 
 ## 求
