@@ -46,7 +46,6 @@ class Solution:
         #         candies[-i - 1] = candies[-i] + 1
         ## 完成。
         return sum(candies)
-        ## 虽然可以做，但是总的来说会超时。
 
 print(
     Solution().candy([1,1,2])

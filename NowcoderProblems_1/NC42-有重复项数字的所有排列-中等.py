@@ -2,6 +2,16 @@
 '''
 https://www.nowcoder.com/practice/a43a2b986ef34843ac4fdd9159b69863?tpId=117&&tqId=37739&&companyId=665&rp=1&ru=/company/home/code/665&qru=/ta/job-code-high/question-ranking
 
+题目描述
+给出一组可能包含重复项的数字，返回该组数字的所有排列。
+示例1
+输入
+复制
+[1,1,2]
+返回值
+复制
+[[1,1,2],[1,2,1],[2,1,1]]
+
 NC43的实现已经OK了，也就是剑指offer38的实现，也可以应对有重复数字的情况。
 '''
 #

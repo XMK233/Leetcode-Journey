@@ -2,7 +2,10 @@
 '''
 https://www.nowcoder.com/practice/6ab1d9a29e88450685099d45c9e31e46?tpId=117&&tqId=37761&&companyId=665&rp=1&ru=/company/home/code/665&qru=/ta/job-code-high/question-ranking
 
-jianzhiOffer68II
+题目描述
+输入两个链表，找出它们的第一个公共结点。（注意因为传入数据是链表，所以错误测试数据的提示是用其他方式显示的，保证传入数据是正确的）
+
+剑指offer52
 '''
 class TreeNode:
     def __init__(self, x):
@@ -11,18 +14,13 @@ class TreeNode:
         self.right = None
 
 class Solution:
-    def lowestCommonAncestor(self , root , o1 , o2 ):
-        # write code here
-        def dfs(root, o1, o2):
-            if not root:
-                return None
-            if root.val ==o1 or root.val==o2:
-                return root
-            left = dfs(root.left, o1, o2)
-            right = dfs(root.right, o1, o2)
-            if not left:
-                return right
-            if not right:
-                return left
-            return root
-        return dfs(root, o1, o2).val
+    def FindFirstCommonNode(self , pHead1 , pHead2 ):
+        headA = pHead1
+        headB = pHead2
+        node1, node2 = headA, headB
+
+        while node1 != node2:
+            node1 = node1.next if node1 else headB
+            node2 = node2.next if node2 else headA
+
+        return node1

@@ -55,21 +55,23 @@ n−2
 #
 class Solution:
     def reorderList(self, head):
-        # write code here
+        # # write code here
         if not head:
             return
-
-        mid = self.middleNode(head)
-        l1 = head
-        l2 = mid.next
-        mid.next = None
-        l2 = self.reverseList(l2)
-        self.mergeList(l1, l2)
+        midNode = self.middleNode(head)
+        ## section1: 切断链表
+        l2 = midNode.next
+        midNode.next = None
+        ## section2: 逆序l2链表
+        l2_rev = self.reverseList(l2)
+        ## section3: 合并两个链表l2_rev以及head
+        return self.mergeList(head, l2_rev)
 
     def middleNode(self, node):
         slow = node
         fast = node
-        while (fast.next != None and fast.next.next != None):
+        while (fast.next != None and fast.next.next != None): ## 这里判断的是, fast能否一次走两步. 一次走一步都不行, 非得一次走两步才行.
+            ## 如果能的话, 就尚未找到中点; 如果不能的话, 那么slow指针指到的地方就是中点.
             slow = slow.next
             fast = fast.next.next
         return slow
@@ -85,13 +87,12 @@ class Solution:
         return pre
 
     def mergeList(self, node1, node2):
-        newL1 = None
-        newL2 = None
-        while (newL1 != None and newL2 != None):
-            next1 = node1.next
-            next2 = node2.next
-            node1.next = node2
-            node2.next = next1
-            node1 = next1
-            node2 = next2
-        return
+        newL1 = node1
+        newL2 = node2
+        while newL2 != None: ##这里待会改一下
+            tmp = newL1.next
+            newL1.next = newL2
+            newL1 = newL2
+            newL2 = tmp
+        return node1
+

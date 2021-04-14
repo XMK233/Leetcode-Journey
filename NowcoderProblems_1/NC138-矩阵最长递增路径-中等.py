@@ -2,15 +2,6 @@
 '''
 https://www.nowcoder.com/practice/7a71a88cdf294ce6bdf54c899be967a2?tpId=117&&tqId=37850&&companyId=665&rp=1&ru=/company/home/code/665&qru=/ta/job-code-high/question-ranking
 
-
-'''
-#
-# 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
-# 递增路径的最大长度
-# @param matrix int整型二维数组 描述矩阵的每个数
-# @return int整型
-#
-'''
 题目描述
 给定一个矩阵，矩阵内所有数均为非负整数。
 求一条路径，该路径上所有数是递增的。
@@ -42,6 +33,12 @@ https://www.nowcoder.com/practice/7a71a88cdf294ce6bdf54c899be967a2?tpId=117&&tqI
 用DFS算法。还算直白，直接看代码就懂了，掌声。
 
 '''
+#
+# 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+# 递增路径的最大长度
+# @param matrix int整型二维数组 描述矩阵的每个数
+# @return int整型
+#
 
 from pprint import pprint
 class Solution:

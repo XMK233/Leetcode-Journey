@@ -2,9 +2,6 @@
 '''
 https://www.nowcoder.com/practice/735a34ff4672498b95660f43b7fcd628?tpId=117&&tqId=37869&&companyId=665&rp=1&ru=/company/home/code/665&qru=/ta/job-code-high/question-ranking
 
-
-'''
-'''
 题目描述
 一个有n户人家的村庄，有m条路连接着。村里现在要修路，每条路都有一个代价，现在请你帮忙计算下，最少需要花费多少的代价，就能让这n户人家连接起来。
 示例1
@@ -14,8 +11,6 @@ https://www.nowcoder.com/practice/735a34ff4672498b95660f43b7fcd628?tpId=117&&tqI
 返回值
 复制
 2
-
-
 '''
 
 #
