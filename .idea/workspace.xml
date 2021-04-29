@@ -23,42 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e22ebe-44be-4604-971f-f9093dad4aae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC105-二分查找-II-中等.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC149-kmp算法-中等.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC1-大数加法-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC1-大数加法-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC102-最近公共祖先-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC102-最近公共祖先-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC103-反转字符串-入门.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC103-反转字符串-入门.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC117-合并二叉树-简单.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC117-合并二叉树-简单.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC118-数组中的逆序对-困难.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC118-数组中的逆序对-困难.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC12-重建二叉树-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC12-重建二叉树-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC123-序列化二叉树-较难.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC123-序列化二叉树-较难.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC127-最长公共子串-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC127-最长公共子串-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC128-容器盛水问题-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC128-容器盛水问题-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC130-分糖果问题-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC130-分糖果问题-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC138-矩阵最长递增路径-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC138-矩阵最长递增路径-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC159-最小生成树-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC159-最小生成树-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC17-最长回文子串-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC17-最长回文子串-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC2-重排链表-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC2-重排链表-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC20-数字字符串转化成IP地址-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC20-数字字符串转化成IP地址-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC22-合并两个有序的数组-简单.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC22-合并两个有序的数组-简单.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC3-链表中环的入口节点-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC3-链表中环的入口节点-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC42-有重复项数字的所有排列-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC42-有重复项数字的所有排列-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC48-在转动过的有序数组中寻找目标值-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC48-在转动过的有序数组中寻找目标值-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC5-二叉树根节点到叶子节点的所有路径和-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC5-二叉树根节点到叶子节点的所有路径和-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC50-链表中的节点每k个一组翻转-较难.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC50-链表中的节点每k个一组翻转-较难.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC51-合并k个已排序的链表-较难.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC51-合并k个已排序的链表-较难.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC53-删除链表的倒数第n个节点-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC53-删除链表的倒数第n个节点-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC57-反转数字-简单.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC57-反转数字-简单.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC60-判断一棵二叉树是否为搜索二叉树和完全二叉树-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC60-判断一棵二叉树是否为搜索二叉树和完全二叉树-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC65-斐波那契数列-入门.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC65-斐波那契数列-入门.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC66-两个链表的第一个公共结点-简单.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC66-两个链表的第一个公共结点-简单.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC140-排序-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC140-排序-中等.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC28-最小覆盖子串-较难.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC28-最小覆盖子串-较难.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC36-在两个长度相等的排序数组中找到上中位数-较难.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC36-在两个长度相等的排序数组中找到上中位数-较难.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC37-合并区间-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC37-合并区间-中等.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC41-最长无重复子串-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC41-最长无重复子串-中等.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC52-括号序列-简单.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC52-括号序列-简单.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC54-数组中相加和为0的三元组-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC54-数组中相加和为0的三元组-中等.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC61-两数之和-简单.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC61-两数之和-简单.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC68-跳台阶-简单.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC68-跳台阶-简单.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC87-丢棋子问题-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC87-丢棋子问题-中等.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC91-最长递增子序列-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC91-最长递增子序列-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC93-设计LRU缓存结构-中等.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC93-设计LRU缓存结构-中等.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC95-最长连续子序列-较难.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC95-最长连续子序列-较难.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC96-判断一个链表是否为回文结构-简单.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC96-判断一个链表是否为回文结构-简单.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC99-树的直径-较难.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC99-树的直径-较难.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request_post_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_post_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowcoderProblems_1/NC94-LFU缓存结构设计-较难.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowcoderProblems_1/NC94-LFU缓存结构设计-较难.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,33 +153,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="D:/MachineLearningPractice/SparrowRecSys/NewCode/PythonPart" />
+    <property name="last_opened_file_path" value="D:/CrawlerForModelStore" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.request_post_test">
-    <configuration name="NC1-大数加法-中等" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Journey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems_1/NC1-大数加法-中等.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.NC87-丢棋子问题-中等">
     <configuration name="NC50-链表中的节点每k个一组翻转-较难" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,6 +172,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems_1/NC50-链表中的节点每k个一组翻转-较难.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NC87-丢棋子问题-中等" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Journey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowcoderProblems_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowcoderProblems_1/NC87-丢棋子问题-中等.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,7 +243,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,7 +255,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NC87-丢棋子问题-中等" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.NC91-最长递增子序列-中等" />
         <item itemvalue="Python.request_post_test" />
         <item itemvalue="Python.NC50-链表中的节点每k个一组翻转-较难" />
-        <item itemvalue="Python.NC91-最长递增子序列-中等" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.NC1-大数加法-中等" />
       </list>
     </recent_temporary>
   </component>
@@ -327,80 +304,91 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="638" y="101" width="693" height="594" key="#xdebugger.evaluate" timestamp="1617948202720">
+    <state x="587" y="101" width="693" height="594" key="#xdebugger.evaluate" timestamp="1619487971965">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state x="-847" y="-449" key="#xdebugger.evaluate/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001295618" />
     <state x="407" y="101" width="693" height="594" key="#xdebugger.evaluate/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613189484636" />
+    <state x="587" y="101" key="#xdebugger.evaluate/0.31.1280.689/-1920.-334.1920.1050@0.31.1280.689" timestamp="1619487971965" />
     <state x="638" y="101" key="#xdebugger.evaluate/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1617948202720" />
-    <state x="421" y="130" key="FileChooserDialogImpl" timestamp="1611091235628">
+    <state x="587" y="101" key="#xdebugger.evaluate/0.31.1280.689@0.31.1280.689" timestamp="1619330028505" />
+    <state x="421" y="130" key="FileChooserDialogImpl" timestamp="1619392685953">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state x="421" y="130" key="FileChooserDialogImpl/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1611091235628" />
-    <state width="1259" height="337" key="GridCell.Tab.0.bottom" timestamp="1618002079727">
+    <state x="421" y="130" key="FileChooserDialogImpl/0.31.1280.689@0.31.1280.689" timestamp="1619392685953" />
+    <state width="1259" height="219" key="GridCell.Tab.0.bottom" timestamp="1619668397253">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
+    <state width="1259" height="219" key="GridCell.Tab.0.bottom/0.31.1280.689/-1920.-334.1920.1050@0.31.1280.689" timestamp="1619668397253" />
     <state width="1899" height="360" key="GridCell.Tab.0.bottom/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1616687679435" />
     <state width="1259" height="337" key="GridCell.Tab.0.bottom/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1618002079727" />
-    <state width="1259" height="337" key="GridCell.Tab.0.center" timestamp="1618002079726">
+    <state width="1259" height="76" key="GridCell.Tab.0.bottom/0.31.1280.689@0.31.1280.689" timestamp="1619392688172" />
+    <state width="1259" height="219" key="GridCell.Tab.0.center" timestamp="1619668397253">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
+    <state width="1259" height="219" key="GridCell.Tab.0.center/0.31.1280.689/-1920.-334.1920.1050@0.31.1280.689" timestamp="1619668397253" />
     <state width="1899" height="360" key="GridCell.Tab.0.center/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1616687679435" />
     <state width="1259" height="337" key="GridCell.Tab.0.center/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1618002079726" />
-    <state width="1259" height="337" key="GridCell.Tab.0.left" timestamp="1618002079726">
+    <state width="1259" height="76" key="GridCell.Tab.0.center/0.31.1280.689@0.31.1280.689" timestamp="1619392688172" />
+    <state width="1259" height="219" key="GridCell.Tab.0.left" timestamp="1619668397253">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030096" />
+    <state width="1259" height="219" key="GridCell.Tab.0.left/0.31.1280.689/-1920.-334.1920.1050@0.31.1280.689" timestamp="1619668397253" />
     <state width="1899" height="360" key="GridCell.Tab.0.left/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1616687679435" />
     <state width="1259" height="337" key="GridCell.Tab.0.left/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1618002079726" />
-    <state width="1259" height="337" key="GridCell.Tab.0.right" timestamp="1618002079726">
+    <state width="1259" height="76" key="GridCell.Tab.0.left/0.31.1280.689@0.31.1280.689" timestamp="1619392688172" />
+    <state width="1259" height="219" key="GridCell.Tab.0.right" timestamp="1619668397253">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="159" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613004900377" />
     <state width="1259" height="211" key="GridCell.Tab.0.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
+    <state width="1259" height="219" key="GridCell.Tab.0.right/0.31.1280.689/-1920.-334.1920.1050@0.31.1280.689" timestamp="1619668397253" />
     <state width="1899" height="360" key="GridCell.Tab.0.right/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1616687679435" />
     <state width="1259" height="337" key="GridCell.Tab.0.right/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1618002079726" />
-    <state width="1259" height="273" key="GridCell.Tab.1.bottom" timestamp="1617948280208">
+    <state width="1259" height="76" key="GridCell.Tab.0.right/0.31.1280.689@0.31.1280.689" timestamp="1619392688172" />
+    <state width="1259" height="219" key="GridCell.Tab.1.bottom" timestamp="1619668399804">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.bottom/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
+    <state width="1259" height="219" key="GridCell.Tab.1.bottom/0.31.1280.689/-1920.-334.1920.1050@0.31.1280.689" timestamp="1619668399804" />
     <state width="1899" height="251" key="GridCell.Tab.1.bottom/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
     <state width="1259" height="273" key="GridCell.Tab.1.bottom/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1617948280208" />
-    <state width="1259" height="273" key="GridCell.Tab.1.center" timestamp="1617948280208">
+    <state width="1259" height="168" key="GridCell.Tab.1.bottom/0.31.1280.689@0.31.1280.689" timestamp="1619392688101" />
+    <state width="1259" height="219" key="GridCell.Tab.1.center" timestamp="1619668399803">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.center/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
+    <state width="1259" height="219" key="GridCell.Tab.1.center/0.31.1280.689/-1920.-334.1920.1050@0.31.1280.689" timestamp="1619668399803" />
     <state width="1899" height="251" key="GridCell.Tab.1.center/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
     <state width="1259" height="273" key="GridCell.Tab.1.center/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1617948280208" />
-    <state width="1259" height="273" key="GridCell.Tab.1.left" timestamp="1617948280208">
+    <state width="1259" height="168" key="GridCell.Tab.1.center/0.31.1280.689@0.31.1280.689" timestamp="1619392688100" />
+    <state width="1259" height="219" key="GridCell.Tab.1.left" timestamp="1619668399803">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.left/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
+    <state width="1259" height="219" key="GridCell.Tab.1.left/0.31.1280.689/-1920.-334.1920.1050@0.31.1280.689" timestamp="1619668399803" />
     <state width="1899" height="251" key="GridCell.Tab.1.left/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
     <state width="1259" height="273" key="GridCell.Tab.1.left/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1617948280208" />
-    <state width="1259" height="273" key="GridCell.Tab.1.right" timestamp="1617948280208">
+    <state width="1259" height="168" key="GridCell.Tab.1.left/0.31.1280.689@0.31.1280.689" timestamp="1619392688100" />
+    <state width="1259" height="219" key="GridCell.Tab.1.right" timestamp="1619668399803">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state width="1659" height="247" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1613001299781" />
     <state width="1259" height="211" key="GridCell.Tab.1.right/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1613195030097" />
+    <state width="1259" height="219" key="GridCell.Tab.1.right/0.31.1280.689/-1920.-334.1920.1050@0.31.1280.689" timestamp="1619668399803" />
     <state width="1899" height="251" key="GridCell.Tab.1.right/0.31.1280.689/-1920.-525.1920.1050@-1920.-525.1920.1050" timestamp="1614656371335" />
     <state width="1259" height="273" key="GridCell.Tab.1.right/0.31.1280.689/-1920.-525.1920.1050@0.31.1280.689" timestamp="1617948280208" />
-    <state x="-1339" y="-404" key="SettingsEditor" timestamp="1609438753963">
-      <screen x="-1680" y="-558" width="1680" height="1020" />
-    </state>
-    <state x="-1339" y="-404" key="SettingsEditor/0.31.1280.689/-1680.-558.1680.1020@-1680.-558.1680.1020" timestamp="1609438753963" />
-    <state width="647" height="352" key="XDebugger.FullValuePopup" timestamp="1611011431287">
-      <screen x="0" y="31" width="1280" height="689" />
-    </state>
-    <state width="647" height="352" key="XDebugger.FullValuePopup/0.31.1280.689/-1680.-558.1680.1020@0.31.1280.689" timestamp="1611011431287" />
+    <state width="1259" height="168" key="GridCell.Tab.1.right/0.31.1280.689@0.31.1280.689" timestamp="1619392688100" />
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1617653395395">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
@@ -681,6 +669,16 @@
           <url>file://$PROJECT_DIR$/NowcoderProblems_1/NC50-链表中的节点每k个一组翻转-较难.py</url>
           <line>61</line>
           <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NowcoderProblems_1/NC91-最长递增子序列-中等.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NowcoderProblems_1/NC87-丢棋子问题-中等.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="123" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

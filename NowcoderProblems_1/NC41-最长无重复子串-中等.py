@@ -2,7 +2,22 @@
 '''
 https://www.nowcoder.com/practice/b56799ebfd684fb394bd315e89324fb4?tpId=117&&tqId=37816&&companyId=665&rp=1&ru=/company/home/code/665&qru=/ta/job-code-high/question-ranking
 
-
+题目描述
+给定一个数组arr，返回arr的最长无的重复子串的长度(无重复指的是所有数字都不相同)。
+示例1
+输入
+复制
+[2,3,4,5]
+返回值
+复制
+4
+示例2
+输入
+复制
+[2,2,3,4,3]
+返回值
+复制
+3
 '''
 
 
