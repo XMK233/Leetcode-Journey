@@ -7,7 +7,7 @@ https://www.nowcoder.com/practice/6e630519bf86480296d0f1c868d425ad?tpId=117&&tqI
 拓展：
 你能给出不利用额外空间的解法么？
 
-
+这个解析看上去更好: https://blog.nowcoder.net/n/0abeae05e9884baf8655b3f6625b6d4d?f=comment
 '''
 
 

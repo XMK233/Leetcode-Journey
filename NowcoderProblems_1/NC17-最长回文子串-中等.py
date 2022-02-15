@@ -27,3 +27,11 @@ class Solution:
         for i in range(n - 1):
             res = max(res, func(A, i, i), func(A, i, i + 1))
         return res
+
+s = "1234567"
+print(
+    Solution().getLongestPalindrome(
+        s,
+        len(s)
+    )
+)

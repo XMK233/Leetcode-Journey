@@ -21,6 +21,11 @@ https://www.nowcoder.com/practice/64b4262d4e6d4f6181cd45446a5821ec?tpId=117&&tqI
 2
 
 jianzhiOffer 63
+
+#基本思路：假设当前a最小，当遇到b(b<a)时，我们可知：若后面出现的使得利益更大的价格C
+#(max利润=C-a)，那么C-b一定大于C-a，即后面的最大收益的比较只需要通过b来计算
+#(max利润=C-b），不再需要a了，因此，我们需要一个游标来记录和更新min值。
+
 '''
 class Solution:
     def maxProfit(self, prices) -> int:
