@@ -22,7 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="81e22ebe-44be-4604-971f-f9093dad4aae" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="81e22ebe-44be-4604-971f-f9093dad4aae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NowCoder_problem_2/NC24-删除有序链表中重复的元素-II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowCoder_problem_2/NC25-删除有序链表中重复的元素-I.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowCoder_problem_2/NC23-划分链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/NowCoder_problem_2/NC23-划分链表.py" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,8 +156,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Python.NC20-数字字符串转化成IP地址">
     <configuration name="NC20-数字字符串转化成IP地址" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.NC25-删除有序链表中重复的元素-I">
+    <configuration name="NC23-划分链表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,7 +174,32 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder_problem_2/NC20-数字字符串转化成IP地址.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder_problem_2/NC23-划分链表.py" />
+>>>>>>> Stashed changes
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NC25-删除有序链表中重复的元素-I" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Journey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowCoder_problem_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder_problem_2/NC25-删除有序链表中重复的元素-I.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,28 +250,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NC30-缺失的第一个正整数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Journey" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NowCoder_problem_2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder_problem_2/NC30-缺失的第一个正整数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+<<<<<<< Updated upstream
     <configuration name="NC32-求平方根" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="NC30-缺失的第一个正整数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="Leetcode-Journey" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,7 +263,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder_problem_2/NC32-求平方根.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NowCoder_problem_2/NC30-缺失的第一个正整数.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,8 +278,13 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="Python.NC20-数字字符串转化成IP地址" />
         <item itemvalue="Python.NC32-求平方根" />
+=======
+        <item itemvalue="Python.NC25-删除有序链表中重复的元素-I" />
+        <item itemvalue="Python.NC23-划分链表" />
+>>>>>>> Stashed changes
         <item itemvalue="Python.NC30-缺失的第一个正整数" />
         <item itemvalue="Python.NC29-二维数组中的查找" />
         <item itemvalue="Python.NC26-括号生成" />
@@ -287,6 +318,60 @@
         </entry>
       </map>
     </option>
+<<<<<<< Updated upstream
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="396" y="39" key="#xdebugger.evaluate" timestamp="1644465048535">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="396" y="39" key="#xdebugger.evaluate/0.0.1280.672@0.0.1280.672" timestamp="1644465048535" />
+    <state x="421" y="91" key="FileChooserDialogImpl" timestamp="1644238237381">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="421" y="91" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1644238237381" />
+    <state width="1259" height="58" key="GridCell.Tab.0.bottom" timestamp="1646572229353">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1259" height="58" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1646572229353" />
+    <state width="1259" height="58" key="GridCell.Tab.0.center" timestamp="1646572229352">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1259" height="58" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1646572229352" />
+    <state width="1259" height="58" key="GridCell.Tab.0.left" timestamp="1646572229351">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1259" height="58" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1646572229351" />
+    <state width="1259" height="58" key="GridCell.Tab.0.right" timestamp="1646572229352">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1259" height="58" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1646572229352" />
+    <state width="1259" height="58" key="GridCell.Tab.1.bottom" timestamp="1646572229353">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1259" height="58" key="GridCell.Tab.1.bottom/0.0.1280.672@0.0.1280.672" timestamp="1646572229353" />
+    <state width="1259" height="58" key="GridCell.Tab.1.center" timestamp="1646572229353">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1259" height="58" key="GridCell.Tab.1.center/0.0.1280.672@0.0.1280.672" timestamp="1646572229353" />
+    <state width="1259" height="58" key="GridCell.Tab.1.left" timestamp="1646572229353">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1259" height="58" key="GridCell.Tab.1.left/0.0.1280.672@0.0.1280.672" timestamp="1646572229353" />
+    <state width="1259" height="58" key="GridCell.Tab.1.right" timestamp="1646572229353">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1259" height="58" key="GridCell.Tab.1.right/0.0.1280.672@0.0.1280.672" timestamp="1646572229353" />
+    <state x="425" y="39" key="RollbackChangesDialog" timestamp="1644721048422">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="425" y="39" key="RollbackChangesDialog/0.0.1280.672@0.0.1280.672" timestamp="1644721048422" />
+    <state x="303" y="-1" width="672" height="678" key="search.everywhere.popup" timestamp="1646318758625">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="303" y="-1" width="672" height="678" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1646318758625" />
+>>>>>>> Stashed changes
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,6 +695,16 @@
           <url>file://$PROJECT_DIR$/NowCoder_problem_2/NC29-二维数组中的查找.py</url>
           <line>5</line>
           <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NowCoder_problem_2/NC23-划分链表.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NowCoder_problem_2/NC23-划分链表.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
