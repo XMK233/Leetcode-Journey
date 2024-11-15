@@ -1,3 +1,23 @@
+
+def permute(lst):
+    if len(lst) == 1:
+        return lst
+    rst = []
+    for i in range(len(lst)):
+        new_lst = lst[0:i-1] + lst[i+1:] ## lst.remove???
+        sub_permutes = permute(new_lst)
+        for sp in sub_permutes:
+            rst.append([lst[i]] + sp)
+    return rst
+
+print(
+    permute([1,2, 3])
+)
+
+
+
+
+
 class Solution:
     def maxInWindows(self , num, size):
         '''
