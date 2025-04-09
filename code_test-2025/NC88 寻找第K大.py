@@ -7,6 +7,12 @@
 # @param K int整型
 # @return int整型
 #
+
+## XMK：比较基础的方法就是，基于快速排序，数组第一个元素是key，然后把比key小的放到右边，比key大的放到左边。
+## 然后把key挪到它该放的位置上。
+## 看看这个位置是不是K位置，如果是的话就return好了，如果不是的话就去相应的区间接着找即可。
+## 参考：快速排序 https://cloud.tencent.com/developer/article/2381985
+
 class Solution:
     def helper(self, a, start, end, K):
         low, high = start, end
