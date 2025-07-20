@@ -28,7 +28,7 @@ class Solution:
             res = max(res, func(A, i, i), func(A, i, i + 1))
         return res
 
-s = "1234567"
+s = "abc1234321ab"
 print(
     Solution().getLongestPalindrome(
         s,
