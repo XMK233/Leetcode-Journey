@@ -36,6 +36,14 @@ premium lock icon
 
 进阶：你可以想出一个时间复杂度小于 O(n2) 的算法吗？'''
 
+from typing import List
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        
+        seen = {}
+        for i, num in enumerate(nums):
+            need = target - num
+            if need in seen:
+                return [seen[need], i]
+            seen[num] = i
+        return []
