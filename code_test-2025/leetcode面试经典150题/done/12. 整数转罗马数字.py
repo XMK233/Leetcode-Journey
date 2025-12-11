@@ -59,4 +59,29 @@ M	1000
 1 <= num <= 3999'''
 class Solution:
     def intToRoman(self, num: int) -> str:
+        # 创建罗马数字符号和对应值的列表，按从大到小排序
+        roman_map = [
+            (1000, 'M'),
+            (900, 'CM'),
+            (500, 'D'),
+            (400, 'CD'),
+            (100, 'C'),
+            (90, 'XC'),
+            (50, 'L'),
+            (40, 'XL'),
+            (10, 'X'),
+            (9, 'IX'),
+            (5, 'V'),
+            (4, 'IV'),
+            (1, 'I')
+        ]
         
+        result = ''
+        # 遍历罗马数字映射列表
+        for value, symbol in roman_map:
+            # 当当前数字大于等于当前值时，添加符号并减去对应值
+            while num >= value:
+                result += symbol
+                num -= value
+        
+        return result
