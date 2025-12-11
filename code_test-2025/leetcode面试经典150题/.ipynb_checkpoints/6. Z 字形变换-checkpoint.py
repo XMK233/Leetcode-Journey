@@ -42,26 +42,18 @@ s 由英文字母（小写和大写）、',' 和 '.' 组成
 
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
-        # 将字符串按 Z 字形排列并逐行读出
-        # 边界：只有一行或行数不小于字符串长度，直接返回原串
         if numRows == 1 or numRows >= len(s):
             return s
-        # 每一行的字符累积容器
         rows = [''] * numRows
-        # 当前所在行索引与行移动方向（step 为 +1 向下，-1 向上）
         i = 0
         step = 1
         for ch in s:
-            # 把当前字符放入对应行
             rows[i] += ch
-            # 首行/末行需要改变行移动方向
             if i == 0:
                 step = 1
             elif i == numRows - 1:
                 step = -1
-            # 移动到下一行
             i += step
-        # 拼接所有行得到最终结果
         return ''.join(rows)
 
 if __name__ == "__main__":
