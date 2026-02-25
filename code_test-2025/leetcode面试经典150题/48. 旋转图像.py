@@ -26,9 +26,32 @@ n == matrix.length == matrix[i].length
 1 <= n <= 20
 -1000 <= matrix[i][j] <= 1000'''
 
+from typing import List
+
+
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        
+        n = len(matrix)
+        # 第一步：矩阵转置（沿主对角线翻转）
+        # 位置 (i, j) <-> (j, i) 交换，等价于“行列互换”
+        for i in range(n):
+            for j in range(i + 1, n):
+                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+        # 第二步：每一行左右翻转
+        # 例如 [1,2,3] -> [3,2,1]
+        # 转置 + 水平翻转 = 顺时针旋转 90 度
+        for i in range(n):
+            matrix[i].reverse()
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    m1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    sol.rotate(m1)
+    print(m1)  # [[7,4,1],[8,5,2],[9,6,3]]
+    m2 = [[5, 1, 9, 11], [2, 4, 8, 10], [13, 3, 6, 7], [15, 14, 12, 16]]
+    sol.rotate(m2)
+    print(m2)  # [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
