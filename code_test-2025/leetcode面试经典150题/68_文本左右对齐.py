@@ -60,6 +60,64 @@ words[i] 由小写英文字母和符号组成
 1 <= maxWidth <= 100
 words[i].length <= maxWidth
 '''
+
+from typing import List
+
+
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
-        
+        # 思路：按行贪心装单词，再根据“是否为最后一行 / 每行单词数”决定如何分配空格
+        res: List[str] = []
+        i = 0
+        n = len(words)
+        while i < n:
+            # 1. 贪心确定当前行能放哪些单词：尽量多放
+            line_len = len(words[i])  # 当前行单词字符总长度（不含空格）
+            j = i + 1
+            # 尝试加入更多单词，保证：单词长度 + 至少一个空格的数量 <= maxWidth
+            while j < n and line_len + 1 + len(words[j]) + (j - i - 1) <= maxWidth:
+                # (j - i - 1) 是之前已经加入的空格数，这里统一写在一条公式中
+                line_len += len(words[j])
+                j += 1
+
+            # 当前行包含的单词下标为 [i, j-1]
+            num_words = j - i
+            is_last_line = (j == n)
+
+            # 2. 构造这一行
+            if num_words == 1 or is_last_line:
+                # 情况 A：只有一个单词，或者最后一行 -> 左对齐
+                line = words[i]
+                for k in range(i + 1, j):
+                    line += " " + words[k]  # 单词之间一个空格
+                # 末尾补足空格到 maxWidth
+                line += " " * (maxWidth - len(line))
+            else:
+                # 情况 B：中间行，且有多个单词 -> 两端对齐，尽量均匀分配空格
+                total_spaces = maxWidth - line_len          # 总空格数
+                gaps = num_words - 1                        # 间隙个数
+                space_each = total_spaces // gaps           # 每个间隙至少的空格数
+                extra = total_spaces % gaps                 # 前 extra 个间隙多一个空格
+
+                line_parts: List[str] = []
+                for k in range(i, j):
+                    line_parts.append(words[k])
+                    if k < j - 1:  # 不是最后一个单词，就要加空格
+                        # 如果还有“多出来”的空格，就先分配到左边的间隙
+                        spaces = space_each + (1 if extra > 0 else 0)
+                        if extra > 0:
+                            extra -= 1
+                        line_parts.append(" " * spaces)
+                line = "".join(line_parts)
+
+            res.append(line)
+            i = j
+
+        return res
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    ws1 = ["This", "is", "an", "example", "of", "text", "justification."]
+    for row in sol.fullJustify(ws1, 16):
+        print(f"'{row}'", len(row))
